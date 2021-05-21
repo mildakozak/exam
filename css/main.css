@@ -58,7 +58,7 @@ header {
   width: 18px;
   height: 18px;
   top: calc(50% - 12px);
-  background: #5B1BDB;
+  background: #FFF;
   border: 2px solid white;
   box-sizing: border-box;
   border-radius: 20px;
@@ -68,7 +68,14 @@ header {
   margin-top: 10px;
   transition: all .3s;
 }
-
+/* BACKGROUND COLORS */
+.background-orange{
+  background: #FA7B26;
+}
+.background-blue{
+  background: #5B1BDB;
+}
+/* END OF BACKGROUND COLORS */
 .button-blue {
   background: #5B1BDB;
   color: #ECE9E1;
