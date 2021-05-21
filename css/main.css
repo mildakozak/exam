@@ -20,6 +20,26 @@ a {
   text-decoration: none;
 }
 
+header{
+  height: 70vh;
+  text-align: center;
+  padding: 10vh;
+}
+.button{
+  margin: 30px;
+  font: 1.2em Gopher;
+  background: #FA7B26;
+  color: #ECE9E1;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 10px 50px;
+}
+
+.background-blue{
+  background: #5B1BDB;
+}
+
+
 /* CSS CODE FOR THE "WHO WE ARE" SECTION */
 
 .background_whoweare {
