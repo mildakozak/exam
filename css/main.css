@@ -20,7 +20,7 @@ a {
   text-decoration: none;
 }
 
-/* CSS CODE FOR THE "WHO WE ARE" SECTION */
+/* CSS CODE FOR THE "WHO WE ARE" SECTION (Coded by Marius) */
 
 .background_whoweare {
   position: relative;
@@ -67,6 +67,7 @@ a {
   padding: 0.7vw 3.4vw;
   float: right;
   margin-top: 3vw;
+  z-index: 99;
 }
 
 .icon_select {
@@ -87,6 +88,41 @@ a {
 }
 
 /* END OF THE CSS CODE FOR THE "WHO WE ARE" SECTION */
+
+/* CSS CODE FOR THE "BECOME A MEMBER" SECTION (Coded by Marius) */
+
+.background_becomemember {
+  position: relative;
+  background-color: #FA7B26;
+  width: 100vw;
+  height: 100vh;
+  z-index: -3;
+
+}
+
+.background_texture_becomemember {
+  background: url("../images/texture/bg2.png") no-repeat center center fixed;
+  width: 100vw;
+  height: 100vh;
+  z-index: -2;
+}
+
+.textbox_becomemember {
+  position: absolute;
+  width: 41vw;
+  right: 16vw;
+  top: 16vw;
+}
+
+
+.bg_blue {
+  background-color: #5B1BDB;
+  float: left;
+
+}
+
+
+/* END OF THE CSS CODE FOR THE "BECOME A MEMBER" SECTION */
 
 
 /*--OUR STORY page: Present time slide--*/
