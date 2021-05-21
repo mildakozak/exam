@@ -10,7 +10,8 @@ H3 {
   font-style: normal;
 }
 
-p,a {
+p,
+a {
   font-family: gopher, sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -38,9 +39,11 @@ header {
   text-transform: uppercase;
   padding: 10px 50px;
 }
-.side-navigation-item-wrappper div{
+
+.side-navigation-item-wrappper div {
   display: block;
 }
+
 #dot-active {
   background: #FFF;
   border: none;
@@ -48,7 +51,8 @@ header {
   height: 24px;
   margin-left: -33px;
 }
-.dot{
+
+.dot {
   content: '';
   width: 18px;
   height: 18px;
@@ -61,12 +65,14 @@ header {
   float: left;
   margin-left: -30px;
   margin-top: 5px;
+}
 
 .button-blue {
   background: #5B1BDB;
   color: #ECE9E1;
 }
-.side-navigation{
+
+.side-navigation {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -78,19 +84,19 @@ header {
   z-index: 1;
 }
 
-.side-navigation a{
+.side-navigation a {
   color: #121212;
   z-index: 2;
 }
 
-.side-navigation-item{
+.side-navigation-item {
   display: block;
   background: #fff;
   padding: 7px 15px;
   opacity: 0;
 }
 
-#active{
+#active {
   opacity: 1;
 }
 
