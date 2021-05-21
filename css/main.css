@@ -30,6 +30,30 @@ header {
   text-align: center;
   padding: 10vh;
 }
+/* BACKGROUND COLORS */
+.background-orange{
+  background: #FA7B26 !important;
+}
+.background-blue{
+  background: #5B1BDB !important;
+}
+/* BORDERS COLORS */
+.border-orange{
+  border-color: #FA7B26 !important;
+}
+.border-blue{
+  border-color: #5B1BDB !important;
+}
+/* FONT COLORS */
+.font-orange{
+  color: #FA7B26 !important;
+}
+.font-blue{
+  color: #5B1BDB !important;
+}
+.font-white{
+  color: #fff !important;
+}
 
 .button {
   margin: 30px;
@@ -45,37 +69,6 @@ header {
   display: block;
 }
 
-#dot-active {
-  background: #FFF;
-  border: none;
-  width: 24px;
-  height: 24px;
-  margin-left: -33px;
-}
-
-.dot {
-  content: '';
-  width: 18px;
-  height: 18px;
-  top: calc(50% - 12px);
-  background: #FFF;
-  border: 2px solid white;
-  box-sizing: border-box;
-  border-radius: 20px;
-  z-index: 1;
-  float: left;
-  margin-left: -30px;
-  margin-top: 10px;
-  transition: all .3s;
-}
-/* BACKGROUND COLORS */
-.background-orange{
-  background: #FA7B26;
-}
-.background-blue{
-  background: #5B1BDB;
-}
-/* END OF BACKGROUND COLORS */
 .button-blue {
   background: #5B1BDB;
   color: #ECE9E1;
@@ -93,6 +86,23 @@ header {
   z-index: 1;
 }
 
+/* BLUE SIDE NAVIGATION */
+.side-navigation-blue .dot{
+  border-color: #5B1BDB !important;
+}
+.side-navigation-blue .side-navigation-item{
+  background: #5B1BDB !important;
+  color: #fff !important;
+}
+.side-navigation-blue #dot-active{
+  background: #5B1BDB !important;
+}
+.side-navigation-blue .dot:hover{
+  background: #5B1BDB !important;
+}
+/* END OF BLUE SIDE NAVIGATION */
+
+
 .side-navigation a {
   color: #121212;
   z-index: 2;
@@ -105,17 +115,40 @@ header {
   opacity: 0;
   transition: all .2s;
 }
+.dot {
+  content: '';
+  width: 18px;
+  height: 18px;
+  top: calc(50% - 12px);
+  border: 2px solid;
+  border-color: #fff;
+  background: #fff;
+  box-sizing: border-box;
+  border-radius: 20px;
+  z-index: 1;
+  float: left;
+  margin-left: -30px;
+  margin-top: 10px;
+  transition: all .3s;
+}
 .dot:hover + .side-navigation-item {
   opacity: 1;
   transition: all .7s;
 }
 .dot:hover{
-  background: #FFF;
+  background: #FFF !important;
   border: none;
   width: 24px;
   height: 24px;
   margin-left: -33px;
   transition: all .3s;
+}
+#dot-active {
+  background: #FFF;
+  border: none;
+  width: 24px;
+  height: 24px;
+  margin-left: -33px;
 }
 
 #active {
