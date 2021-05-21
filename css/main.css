@@ -20,8 +20,7 @@ a {
   text-decoration: none;
 }
 
-header{
-  background-image: url("../images/header-background.png");
+header {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: left;
@@ -29,7 +28,8 @@ header{
   text-align: center;
   padding: 10vh;
 }
-.button{
+
+.button {
   margin: 30px;
   font: 1.2em Gopher;
   background: #FA7B26;
@@ -62,8 +62,7 @@ header{
   margin-left: -30px;
   margin-top: 5px;
 
-}
-.button-blue{
+.button-blue {
   background: #5B1BDB;
   color: #ECE9E1;
 }
@@ -96,14 +95,14 @@ header{
 }
 
 
-/* CSS CODE FOR THE "WHO WE ARE" SECTION */
+/* CSS CODE FOR THE "WHO WE ARE" SECTION (Coded by Marius) */
 
 .background_whoweare {
   position: relative;
   background-color: #5B1BDB;
   width: 100vw;
   height: 100vh;
-  z-index: -3;
+  z-index: 3;
 
 }
 
@@ -111,13 +110,13 @@ header{
   background: url("../images/texture/bg1.png") no-repeat center center fixed;
   width: 100vw;
   height: 100vh;
-  z-index: -2;
+
 }
 
 .textbox_whoweare {
   position: absolute;
   width: 41vw;
-  left: 16vw;
+  left: 10vw;
   top: 16vw;
 }
 
@@ -143,6 +142,7 @@ header{
   padding: 0.7vw 3.4vw;
   float: right;
   margin-top: 3vw;
+
 }
 
 .icon_select {
@@ -162,7 +162,262 @@ header{
   z-index: -1;
 }
 
+.illustration_whoarewe {
+  position: absolute;
+  top: 17vw;
+  right: 5vw;
+  width: 40vw;
+}
+
 /* END OF THE CSS CODE FOR THE "WHO WE ARE" SECTION */
+
+/* CSS CODE FOR THE "BECOME A MEMBER" SECTION (Coded by Marius) */
+
+.background_becomemember {
+  position: relative;
+  background-color: #FA7B26;
+  width: 100vw;
+  height: 100vh;
+
+}
+
+.background_texture_becomemember {
+  background: url("../images/texture/bg2.png") no-repeat center center fixed;
+  width: 100vw;
+  height: 100vh;
+}
+
+.textbox_becomemember {
+  position: absolute;
+  width: 41vw;
+  right: 10vw;
+  top: 16vw;
+}
+
+
+.bg_blue {
+  background-color: #5B1BDB;
+  float: left;
+
+}
+
+.illustration_becomemember {
+  position: absolute;
+  top: 13vw;
+  left: 13vw;
+  width: 25vw;
+
+}
+
+
+/* END OF THE CSS CODE FOR THE "BECOME A MEMBER" SECTION */
+
+.background_scrolling {
+  position: relative;
+  background-color: #ECE9E1;
+  width: 100vw;
+  height: 100vh;
+
+}
+
+.background_texture_scrolling {
+  background: url("../images/texture/bg3.png") no-repeat center center fixed;
+  width: 100vw;
+  height: 100%;
+}
+
+
+/* CSS CODE FOR THE "MEMBERS" SECTION (Coded by Marius) */
+
+.section_members {
+  position: absolute;
+  width: 49.3vw;
+  height: 39.2vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  top: 11vw;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.flexbox_members {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.box_member0 {
+  background: url("../images/members/member1.png");
+  background-size: cover;
+  width: 8.3vw;
+  height: 8.3vw;
+}
+
+.box_member1 {
+  background: url("../images/members/member1.png");
+  background-size: cover;
+  width: 8.3vw;
+  height: 8.3vw;
+}
+
+.box_member2 {
+  background: url("../images/members/member2.png");
+  background-size: cover;
+  width: 8.3vw;
+  height: 8.3vw;
+}
+
+.box_member3 {
+  background: url("../images/members/member3.png");
+  background-size: cover;
+  width: 8.3vw;
+  height: 8.3vw;
+}
+
+.box_member4 {
+  background: url("../images/members/member4.png");
+  background-size: cover;
+  width: 8.3vw;
+  height: 8.3vw;
+}
+
+.box_member5 {
+  background: url("../images/members/member5.png");
+  background-size: cover;
+  width: 8.3vw;
+  height: 8.3vw;
+}
+
+.box_member6 {
+  background: url("../images/members/member6.png");
+  background-size: cover;
+  width: 8.3vw;
+  height: 8.3vw;
+}
+
+.box_member7 {
+  background: url("../images/members/member7.png");
+  background-size: cover;
+  width: 8.3vw;
+  height: 8.3vw;
+}
+
+.box_member8 {
+  background: url("../images/members/member8.png");
+  background-size: cover;
+  width: 8.3vw;
+  height: 8.3vw;
+}
+
+.box_member9 {
+  background: url("../images/members/member9.png");
+  background-size: cover;
+  width: 8.3vw;
+  height: 8.3vw;
+}
+
+.box_member10 {
+  background: url("../images/members/member10.png");
+  background-size: cover;
+  width: 8.3vw;
+  height: 8.3vw;
+}
+
+.box_member11 {
+  background: url("../images/members/member11.png");
+  background-size: cover;
+  width: 8.3vw;
+  height: 8.3vw;
+}
+
+.box_member12 {
+  background: url("../images/members/member12.png");
+  background-size: cover;
+  width: 8.3vw;
+  height: 8.3vw;
+}
+
+.box_member13 {
+  background: url("../images/members/member13.png");
+  background-size: cover;
+  width: 8.3vw;
+  height: 8.3vw;
+}
+
+.box_member14 {
+  background: url("../images/members/member14.png");
+  background-size: cover;
+  width: 8.3vw;
+  height: 8.3vw;
+}
+
+.box_member15 {
+  background: url("../images/members/member15.png");
+  background-size: cover;
+  width: 8.3vw;
+  height: 8.3vw;
+}
+
+.box_member16 {
+  background: url("../images/members/member16.png");
+  background-size: cover;
+  width: 8.3vw;
+  height: 8.3vw;
+}
+
+.box_member17 {
+  background: url("../images/members/member17.png");
+  background-size: cover;
+  width: 8.3vw;
+  height: 8.3vw;
+}
+
+.overlay {
+  position: relative;
+  width: 8.3vw;
+  height: 8.3vw;
+  opacity: 0;
+  transition: .8s ease;
+  background-color: #5B1BDB;
+  text-align: center;
+
+}
+
+.text_overlay {
+  color: #ECE9E1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+.box_member0:hover .overlay,
+.box_member1:hover .overlay,
+.box_member2:hover .overlay,
+.box_member3:hover .overlay,
+.box_member4:hover .overlay,
+.box_member5:hover .overlay,
+.box_member6:hover .overlay,
+.box_member7:hover .overlay,
+.box_member8:hover .overlay,
+.box_member9:hover .overlay,
+.box_member10:hover .overlay,
+.box_member11:hover .overlay,
+.box_member12:hover .overlay,
+.box_member12:hover .overlay,
+.box_member13:hover .overlay,
+.box_member14:hover .overlay,
+.box_member15:hover .overlay,
+.box_member16:hover .overlay,
+.box_member17:hover .overlay {
+  opacity: 1;
+}
+
+/* END OF THE CSS CODE FOR THE "MEMBERS" SECTION */
 
 
 /*--OUR STORY page: Present time slide--*/
