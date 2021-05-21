@@ -65,7 +65,8 @@ header {
   z-index: 1;
   float: left;
   margin-left: -30px;
-  margin-top: 5px;
+  margin-top: 10px;
+  transition: all .3s;
 }
 
 .button-blue {
@@ -95,6 +96,19 @@ header {
   background: #fff;
   padding: 7px 15px;
   opacity: 0;
+  transition: all .2s;
+}
+.dot:hover + .side-navigation-item {
+  opacity: 1;
+  transition: all .7s;
+}
+.dot:hover{
+  background: #FFF;
+  border: none;
+  width: 24px;
+  height: 24px;
+  margin-left: -33px;
+  transition: all .3s;
 }
 
 #active {
