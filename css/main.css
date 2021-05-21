@@ -21,7 +21,10 @@ a {
 }
 
 header{
-  height: 70vh;
+  background-image: url("../images/header-background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 80vh;
   text-align: center;
   padding: 10vh;
 }
