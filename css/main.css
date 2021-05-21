@@ -20,10 +20,33 @@ a {
   text-decoration: none;
 }
 
+header {
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 80vh;
+  text-align: center;
+  padding: 10vh;
+}
+
+.button {
+  margin: 30px;
+  font: 1.2em Gopher;
+  background: #FA7B26;
+  color: #ECE9E1;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 10px 50px;
+}
+
+.button-blue {
+  background: #5B1BDB;
+  color: #ECE9E1;
+}
+
+
 /* CSS CODE FOR THE "WHO WE ARE" SECTION (Coded by Marius) */
 
 .background_whoweare {
-  position: relative;
   background-color: #5B1BDB;
   width: 100vw;
   height: 100vh;
