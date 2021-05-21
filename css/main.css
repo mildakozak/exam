@@ -1,13 +1,89 @@
-*{
+* {
   margin: 0;
 }
-H1,H2,H3{
-  font-family: roc-grotesk,sans-serif;
+
+H1,
+H2,
+H3 {
+  font-family: roc-grotesk, sans-serif;
   font-weight: 600;
   font-style: normal;
 }
-p{
-  font-family: gopher,sans-serif;
+
+p {
+  font-family: gopher, sans-serif;
   font-weight: 400;
   font-style: normal;
 }
+
+a {
+  text-decoration: none;
+}
+
+/* CSS CODE FOR THE "WHO WE ARE" SECTION */
+
+.background_whoweare {
+  position: relative;
+  background-color: #5B1BDB;
+  width: 100vw;
+  height: 100vh;
+  z-index: -3;
+
+}
+
+.background_texture_whoweare {
+  background: url("../images/texture/bg1.png") no-repeat center center fixed;
+  width: 100vw;
+  height: 100vh;
+  z-index: -2;
+}
+
+.textbox_whoweare {
+  position: absolute;
+  width: 41vw;
+  left: 16vw;
+  top: 16vw;
+}
+
+.header_whoweare {
+  text-align: left;
+  font: bold 2vw/3.5vw Roc Grotesk;
+  color: #ECE9E1;
+}
+
+.body_whoweare {
+  text-align: left;
+  font: 1.1vw/2.4vw Gopher;
+  color: #ECE9E1;
+  margin-top: 2vw;
+}
+
+.button_whoweare {
+  background: #FA7B26;
+  text-align: center;
+  font: 1.3vw/1.6vw Gopher;
+  color: #ECE9E1;
+  text-transform: uppercase;
+  padding: 0.7vw 3.4vw;
+  float: right;
+  margin-top: 3vw;
+}
+
+.icon_select {
+  position: absolute;
+  margin-top: 4.5vw;
+  margin-left: 24vw;
+  width: 4.6vw;
+  height: 4.7vw;
+}
+
+.illustration_splash {
+  position: absolute;
+  top: 4.9vw;
+  left: -2vw;
+  width: 14vw;
+  height: 3vw;
+  z-index: -1;
+}
+
+/* END OF THE CSS CODE FOR THE "WHO WE ARE" SECTION */
