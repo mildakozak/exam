@@ -35,8 +35,9 @@ header{
   padding: 10px 50px;
 }
 
-.background-blue{
+.button-blue{
   background: #5B1BDB;
+  color: #ECE9E1;
 }
 
 
