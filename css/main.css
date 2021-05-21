@@ -47,10 +47,11 @@ header {
 /* CSS CODE FOR THE "WHO WE ARE" SECTION (Coded by Marius) */
 
 .background_whoweare {
+  position: relative;
   background-color: #5B1BDB;
   width: 100vw;
   height: 100vh;
-  z-index: -3;
+  z-index: 3;
 
 }
 
@@ -58,13 +59,13 @@ header {
   background: url("../images/texture/bg1.png") no-repeat center center fixed;
   width: 100vw;
   height: 100vh;
-  z-index: -2;
+
 }
 
 .textbox_whoweare {
   position: absolute;
   width: 41vw;
-  left: 16vw;
+  left: 10vw;
   top: 16vw;
 }
 
@@ -90,7 +91,7 @@ header {
   padding: 0.7vw 3.4vw;
   float: right;
   margin-top: 3vw;
-  z-index: 99;
+
 }
 
 .icon_select {
@@ -110,6 +111,13 @@ header {
   z-index: -1;
 }
 
+.illustration_whoarewe {
+  position: absolute;
+  top: 17vw;
+  right: 5vw;
+  width: 40vw;
+}
+
 /* END OF THE CSS CODE FOR THE "WHO WE ARE" SECTION */
 
 /* CSS CODE FOR THE "BECOME A MEMBER" SECTION (Coded by Marius) */
@@ -119,7 +127,6 @@ header {
   background-color: #FA7B26;
   width: 100vw;
   height: 100vh;
-  z-index: -3;
 
 }
 
@@ -127,13 +134,12 @@ header {
   background: url("../images/texture/bg2.png") no-repeat center center fixed;
   width: 100vw;
   height: 100vh;
-  z-index: -2;
 }
 
 .textbox_becomemember {
   position: absolute;
   width: 41vw;
-  right: 16vw;
+  right: 10vw;
   top: 16vw;
 }
 
@@ -141,6 +147,14 @@ header {
 .bg_blue {
   background-color: #5B1BDB;
   float: left;
+
+}
+
+.illustration_becomemember {
+  position: absolute;
+  top: 13vw;
+  left: 13vw;
+  width: 25vw;
 
 }
 
