@@ -10,7 +10,8 @@ H3 {
   font-style: normal;
 }
 
-p {
+p,
+a {
   font-family: gopher, sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -21,26 +22,178 @@ a {
 }
 
 /* Marius - CSS CODE FOR THE "WHO WE ARE" SECTION */
+header {
+  background-image: url("../images/header-background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left;
+  height: 80vh;
+  text-align: center;
+  padding: 10vh;
+}
+
+/* BACKGROUND COLORS */
+.background-orange {
+  background: #FA7B26 !important;
+}
+
+.background-blue {
+  background: #5B1BDB !important;
+}
+
+/* BORDERS COLORS */
+.border-orange {
+  border-color: #FA7B26 !important;
+}
+
+.border-blue {
+  border-color: #5B1BDB !important;
+}
+
+/* FONT COLORS */
+.font-orange {
+  color: #FA7B26 !important;
+}
+
+.font-blue {
+  color: #5B1BDB !important;
+}
+
+.font-white {
+  color: #ECE9E1 !important;
+}
+
+.button {
+  margin: 30px;
+  font: 1.2em Gopher;
+  background: #FA7B26;
+  color: #ECE9E1;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 10px 50px;
+}
+
+.side-navigation-item-wrappper div {
+  display: block;
+}
+
+.button-blue {
+  background: #5B1BDB;
+  color: #ECE9E1;
+}
+
+.side-navigation {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  position: absolute;
+  height: 100%;
+  border-left: 3px solid #fff;
+  margin-left: 25px;
+  padding-left: 20px;
+  z-index: 1;
+}
+
+/* BLUE SIDE NAVIGATION */
+.side-navigation-blue .dot {
+  border-color: #5B1BDB !important;
+}
+
+.side-navigation-blue .side-navigation-item {
+  background: #5B1BDB !important;
+  color: #fff !important;
+}
+
+.side-navigation-blue #dot-active {
+  background: #5B1BDB !important;
+}
+
+.side-navigation-blue .dot:hover {
+  background: #5B1BDB !important;
+}
+
+/* END OF BLUE SIDE NAVIGATION */
+
+
+.side-navigation a {
+  color: #121212;
+  z-index: 2;
+}
+
+.side-navigation-item {
+  display: block;
+  background: #fff;
+  padding: 7px 15px;
+  opacity: 0;
+  transition: all .2s;
+}
+
+.dot {
+  content: '';
+  width: 18px;
+  height: 18px;
+  top: calc(50% - 12px);
+  border: 2px solid;
+  border-color: #fff;
+  background: #fff;
+  box-sizing: border-box;
+  border-radius: 20px;
+  z-index: 1;
+  float: left;
+  margin-left: -30px;
+  margin-top: 10px;
+  transition: all .3s;
+}
+
+.dot:hover+.side-navigation-item {
+  opacity: 1;
+  transition: all .7s;
+}
+
+.dot:hover {
+  background: #FFF !important;
+  border: none;
+  width: 24px;
+  height: 24px;
+  margin-left: -33px;
+  transition: all .3s;
+}
+
+#dot-active {
+  background: #FFF;
+  border: none;
+  width: 24px;
+  height: 24px;
+  margin-left: -33px;
+}
+
+#active {
+  opacity: 1;
+}
+
+
+/* CSS CODE FOR THE "WHO WE ARE" SECTION (Coded by Marius) */
 
 .background_whoweare {
   position: relative;
   background-color: #5B1BDB;
   width: 100vw;
   height: 100vh;
-  z-index: -3;
+  z-index: 3;
+
 }
 
 .background_texture_whoweare {
   background: url("../images/texture/bg1.png") no-repeat center center fixed;
   width: 100vw;
   height: 100vh;
-  z-index: -2;
+
 }
 
 .textbox_whoweare {
   position: absolute;
   width: 41vw;
-  left: 16vw;
+  left: 10vw;
   top: 16vw;
 }
 
@@ -66,6 +219,7 @@ a {
   padding: 0.7vw 3.4vw;
   float: right;
   margin-top: 3vw;
+
 }
 
 .icon_select {
@@ -84,7 +238,387 @@ a {
   height: 3vw;
   z-index: -1;
 }
+
+.illustration_whoarewe {
+  position: absolute;
+  top: 17vw;
+  right: 5vw;
+  width: 40vw;
+}
+
 /* END OF THE CSS CODE FOR THE "WHO WE ARE" SECTION */
+
+/* CSS CODE FOR THE "BECOME A MEMBER" SECTION (Coded by Marius) */
+
+.background_becomemember {
+  position: relative;
+  background-color: #FA7B26;
+  width: 100vw;
+  height: 100vh;
+
+}
+
+.background_texture_becomemember {
+  background: url("../images/texture/bg2.png") no-repeat center center fixed;
+  width: 100vw;
+  height: 100vh;
+}
+
+.textbox_becomemember {
+  position: absolute;
+  width: 41vw;
+  right: 10vw;
+  top: 16vw;
+}
+
+
+.bg_blue {
+  background-color: #5B1BDB;
+  float: left;
+
+}
+
+.illustration_becomemember {
+  position: absolute;
+  top: 13vw;
+  left: 13vw;
+  width: 25vw;
+
+}
+
+
+/* END OF THE CSS CODE FOR THE "BECOME A MEMBER" SECTION */
+
+.background_scrolling {
+  position: relative;
+  background-color: #ECE9E1;
+  width: 100vw;
+  height: 330vh;
+
+}
+
+.background_texture_scrolling {
+  background: url("../images/texture/bg3.png") no-repeat center center fixed;
+  width: 100vw;
+  height: 100%;
+}
+
+
+/* CSS CODE FOR THE "MEMBERS" SECTION (Coded by Marius) */
+
+.section_members {
+  position: absolute;
+  width: 49.3vw;
+  height: 39.2vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  top: 11vw;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.flexbox_members {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.box_member0 {
+  background: url("../images/members/member1.png");
+  background-size: cover;
+  width: 8.3vw;
+  height: 8.3vw;
+}
+
+.box_member1 {
+  background: url("../images/members/member1.png");
+  background-size: cover;
+  width: 8.3vw;
+  height: 8.3vw;
+}
+
+.box_member2 {
+  background: url("../images/members/member2.png");
+  background-size: cover;
+  width: 8.3vw;
+  height: 8.3vw;
+}
+
+.box_member3 {
+  background: url("../images/members/member3.png");
+  background-size: cover;
+  width: 8.3vw;
+  height: 8.3vw;
+}
+
+.box_member4 {
+  background: url("../images/members/member4.png");
+  background-size: cover;
+  width: 8.3vw;
+  height: 8.3vw;
+}
+
+.box_member5 {
+  background: url("../images/members/member5.png");
+  background-size: cover;
+  width: 8.3vw;
+  height: 8.3vw;
+}
+
+.box_member6 {
+  background: url("../images/members/member6.png");
+  background-size: cover;
+  width: 8.3vw;
+  height: 8.3vw;
+}
+
+.box_member7 {
+  background: url("../images/members/member7.png");
+  background-size: cover;
+  width: 8.3vw;
+  height: 8.3vw;
+}
+
+.box_member8 {
+  background: url("../images/members/member8.png");
+  background-size: cover;
+  width: 8.3vw;
+  height: 8.3vw;
+}
+
+.box_member9 {
+  background: url("../images/members/member9.png");
+  background-size: cover;
+  width: 8.3vw;
+  height: 8.3vw;
+}
+
+.box_member10 {
+  background: url("../images/members/member10.png");
+  background-size: cover;
+  width: 8.3vw;
+  height: 8.3vw;
+}
+
+.box_member11 {
+  background: url("../images/members/member11.png");
+  background-size: cover;
+  width: 8.3vw;
+  height: 8.3vw;
+}
+
+.box_member12 {
+  background: url("../images/members/member12.png");
+  background-size: cover;
+  width: 8.3vw;
+  height: 8.3vw;
+}
+
+.box_member13 {
+  background: url("../images/members/member13.png");
+  background-size: cover;
+  width: 8.3vw;
+  height: 8.3vw;
+}
+
+.box_member14 {
+  background: url("../images/members/member14.png");
+  background-size: cover;
+  width: 8.3vw;
+  height: 8.3vw;
+}
+
+.box_member15 {
+  background: url("../images/members/member15.png");
+  background-size: cover;
+  width: 8.3vw;
+  height: 8.3vw;
+}
+
+.box_member16 {
+  background: url("../images/members/member16.png");
+  background-size: cover;
+  width: 8.3vw;
+  height: 8.3vw;
+}
+
+.box_member17 {
+  background: url("../images/members/member17.png");
+  background-size: cover;
+  width: 8.3vw;
+  height: 8.3vw;
+}
+
+.overlay {
+  position: relative;
+  width: 8.3vw;
+  height: 8.3vw;
+  opacity: 0;
+  transition: .8s ease;
+  background-color: #5B1BDB;
+  text-align: center;
+
+}
+
+.text_overlay {
+  color: #ECE9E1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+.box_member0:hover .overlay,
+.box_member1:hover .overlay,
+.box_member2:hover .overlay,
+.box_member3:hover .overlay,
+.box_member4:hover .overlay,
+.box_member5:hover .overlay,
+.box_member6:hover .overlay,
+.box_member7:hover .overlay,
+.box_member8:hover .overlay,
+.box_member9:hover .overlay,
+.box_member10:hover .overlay,
+.box_member11:hover .overlay,
+.box_member12:hover .overlay,
+.box_member12:hover .overlay,
+.box_member13:hover .overlay,
+.box_member14:hover .overlay,
+.box_member15:hover .overlay,
+.box_member16:hover .overlay,
+.box_member17:hover .overlay {
+  opacity: 1;
+}
+
+/* END OF THE CSS CODE FOR THE "MEMBERS" SECTION */
+
+/* CSS CODE FOR THE "PORTFOLIOS" SECTION (Coded by Marius) */
+.section_portfolios {
+  position: absolute;
+  width: 32.8vw;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  top: 124.5vh;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.column_portfolios {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.box_portfolio0 {
+  width: 15.3vw;
+  height: 30vw;
+}
+
+.box_portfolio1 {
+  width: 15.3vw;
+  height: 27.6vw;
+}
+
+.box_portfolio2 {
+  width: 15.3vw;
+  height: 30.1vw;
+}
+
+.box_portfolio3 {
+  width: 15.3vw;
+  height: 27.7vw;
+}
+
+.box_portfolio4 {
+  width: 15.3vw;
+  height: 30.1vw;
+}
+
+.portfolio0 {
+  background: url("../images/portfolios/portfolio0.png");
+  background-size: cover;
+  width: 15.1vw;
+  height: 23.6vw;
+
+}
+
+.portfolio1 {
+  background: url("../images/portfolios/portfolio1.png");
+  background-size: cover;
+  width: 15.1vw;
+  height: 21.1vw;
+
+}
+
+.portfolio2 {
+  background: url("../images/portfolios/portfolio2.png");
+  background-size: cover;
+  width: 15.1vw;
+  height: 23.7vw;
+
+}
+
+.portfolio3 {
+  background: url("../images/portfolios/portfolio3.png");
+  background-size: cover;
+  width: 15.1vw;
+  height: 21.1vw;
+
+}
+
+.portfolio4 {
+  background: url("../images/portfolios/portfolio4.png");
+  background-size: cover;
+  width: 15.1vw;
+  height: 23.7vw;
+
+}
+
+.portfolio_title {
+  margin-top: 0.8vw;
+  text-align: left;
+  font: medium 1.5vw/2vw Roc Grotesk;
+}
+
+.portfolio_description {
+  text-align: left;
+  font: medium 1.5vw/1.6vw Gopher;
+  color: #FA7B26;
+}
+
+/* END OF THE CSS CODE FOR THE "PORTFOLIOS" SECTION */
+
+/* FOOTER SECTION */
+
+.footer {
+  position: absolute;
+  text-align: center;
+  top: 316.5vh;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.facebook,
+.instagram {
+  width: 3.50vw;
+  height: 3vw;
+  margin-bottom: 1.6vw;
+  margin-left: 0.5vw;
+  margin-right: 0.5vw;
+}
+
+/* END OF THE FOOTER SECTION */
 
 
 /* Vlada - CSS CODE FOR "OUR STORY" PAGE: Present time section */
