@@ -584,12 +584,12 @@ header {
 .portfolio_title {
   margin-top: 0.8vw;
   text-align: left;
-  font: normal normal medium 28px/38px Roc Grotesk;
+  font: medium 1.5vw/2vw Roc Grotesk;
 }
 
 .portfolio_description {
   text-align: left;
-  font: normal normal medium 22px/30px Gopher;
+  font: medium 1.5vw/1.6vw Gopher;
   color: #FA7B26;
 }
 
@@ -644,4 +644,79 @@ header {
   display: block;
   max-width: 100%;
   max-height: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  .textbox_becomemember {
+    position: absolute;
+    width: 41vw;
+    top: 10%;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .illustration_becomemember {
+    width: 260px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+
+
+  }
+
+}
+
+
+@media only screen and (max-width: 1024px) {
+  .textbox_becomemember {
+    position: absolute;
+    width: 41vw;
+    top: 10%;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .illustration_becomemember {
+    width: 260px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+
+
+  }
+
+}
+
+@media only screen and (max-width: 1200px) {
+  .textbox_becomemember {
+    position: absolute;
+    width: 41vw;
+    top: 10%;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .illustration_becomemember {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+
+
+  }
+
 }
