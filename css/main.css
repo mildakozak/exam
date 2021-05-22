@@ -20,7 +20,7 @@ a {
   text-decoration: none;
 }
 
-/* CSS CODE FOR THE "WHO WE ARE" SECTION */
+/* Marius - CSS CODE FOR THE "WHO WE ARE" SECTION */
 
 .background_whoweare {
   position: relative;
@@ -28,7 +28,6 @@ a {
   width: 100vw;
   height: 100vh;
   z-index: -3;
-
 }
 
 .background_texture_whoweare {
@@ -85,32 +84,98 @@ a {
   height: 3vw;
   z-index: -1;
 }
-
 /* END OF THE CSS CODE FOR THE "WHO WE ARE" SECTION */
 
 
-/*--OUR STORY page: Present time slide--*/
-.present {
+/* Vlada - CSS CODE FOR "OUR STORY" PAGE: Present time section */
+.background-present {
+  position: relative;
+  background: url("../images/texture/bg2.png") no-repeat center center fixed;
   background-color: #FA7B26;
-  background-image: url("../images/texture/bg1.svg");
-  width: 100%;
-  height: 100%;
+  width: 100vw;
+  height: 100vh;
+  z-index: -2;
+}
+
+.flex-img-text {
+  display: flex;
+  flex-direction: row;
 }
 
 .flex-text {
-  padding: 0 60px;
-  padding-top: 150px;
-  padding-bottom: 100px;
+  padding-top: 15vw;
+  padding-left: 16vw;
+  padding-right: 8vw;
 }
 
-.present-heading {
-  font-size: 50px;
-  font-family: "roc-grotesk";
-  color: #EEECE6;
+.present-splash {
+  position: absolute;
+  top: 14.5vw;
+  left: 15vw;
+  width: 14vw;
+  height: 3vw;
+  z-index: -1;
+}
+
+.present-text {
+  text-align: left;
+  font: 1.5vw/2vw Roc Grotesk;
+  color: #ECE9E1;
 }
 
 .present-img {
-  display: block;
-  max-width: 100%;
-  max-height: 100%;
+  height: 100vh;
 }
+/* Vlada - END OF CSS CODE FOR "OUR STORY" PAGE: Present time section */
+
+/* Vlada - CSS CODE FOR "OUR STORY" PAGE: Petition section */
+.background-support {
+  position: relative;
+  background: url("../images/texture/bg.png") no-repeat center center fixed;
+  background-color: #ECE9E1;
+  width: 100vw;
+  height: 100vh;
+  z-index: -2;
+}
+
+.sup-text {
+  padding-top: 5vw;
+  padding-left: 16vw;
+  padding-right: 8vw;
+}
+
+.sup-splash {
+  position: absolute;
+  top: 4.5vw;
+  left: 15vw;
+  width: 14vw;
+  height: 3vw;
+  z-index: -1;
+}
+
+.support-head {
+  text-align: left;
+  font: 1.5vw/2vw Roc Grotesk;
+  color: #121212;
+}
+
+.support-text{
+  text-align: left;
+  font: 1.1vw/2vw Gopher;
+  color: #121212;
+}
+
+.button-sup {
+  background: #FA7B26;
+  text-align: center;
+  font: 1.1vw/1.6vw Gopher;
+  color: #ECE9E1;
+  text-transform: uppercase;
+  padding: 0.5vw 3vw;
+  float: left;
+  margin-top: 1.5vw;
+  margin-left: 5vw;
+}
+
+/* Vlada - END OF CSS CODE FOR "OUR STORY" PAGE: Petition section */
+
