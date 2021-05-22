@@ -30,29 +30,36 @@ header {
   text-align: center;
   padding: 10vh;
 }
+
 /* BACKGROUND COLORS */
-.background-orange{
+.background-orange {
   background: #FA7B26 !important;
 }
-.background-blue{
+
+.background-blue {
   background: #5B1BDB !important;
 }
+
 /* BORDERS COLORS */
-.border-orange{
+.border-orange {
   border-color: #FA7B26 !important;
 }
-.border-blue{
+
+.border-blue {
   border-color: #5B1BDB !important;
 }
+
 /* FONT COLORS */
-.font-orange{
+.font-orange {
   color: #FA7B26 !important;
 }
-.font-blue{
+
+.font-blue {
   color: #5B1BDB !important;
 }
-.font-white{
-  color: #fff !important;
+
+.font-white {
+  color: #ECE9E1 !important;
 }
 
 .button {
@@ -87,19 +94,23 @@ header {
 }
 
 /* BLUE SIDE NAVIGATION */
-.side-navigation-blue .dot{
+.side-navigation-blue .dot {
   border-color: #5B1BDB !important;
 }
-.side-navigation-blue .side-navigation-item{
+
+.side-navigation-blue .side-navigation-item {
   background: #5B1BDB !important;
   color: #fff !important;
 }
-.side-navigation-blue #dot-active{
+
+.side-navigation-blue #dot-active {
   background: #5B1BDB !important;
 }
-.side-navigation-blue .dot:hover{
+
+.side-navigation-blue .dot:hover {
   background: #5B1BDB !important;
 }
+
 /* END OF BLUE SIDE NAVIGATION */
 
 
@@ -115,6 +126,7 @@ header {
   opacity: 0;
   transition: all .2s;
 }
+
 .dot {
   content: '';
   width: 18px;
@@ -131,11 +143,13 @@ header {
   margin-top: 10px;
   transition: all .3s;
 }
-.dot:hover + .side-navigation-item {
+
+.dot:hover+.side-navigation-item {
   opacity: 1;
   transition: all .7s;
 }
-.dot:hover{
+
+.dot:hover {
   background: #FFF !important;
   border: none;
   width: 24px;
@@ -143,6 +157,7 @@ header {
   margin-left: -33px;
   transition: all .3s;
 }
+
 #dot-active {
   background: #FFF;
   border: none;
@@ -277,7 +292,7 @@ header {
   position: relative;
   background-color: #ECE9E1;
   width: 100vw;
-  height: 100vh;
+  height: 330vh;
 
 }
 
@@ -479,6 +494,130 @@ header {
 }
 
 /* END OF THE CSS CODE FOR THE "MEMBERS" SECTION */
+
+/* CSS CODE FOR THE "PORTFOLIOS" SECTION (Coded by Marius) */
+.section_portfolios {
+  position: absolute;
+  width: 32.8vw;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  top: 124.5vh;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.column_portfolios {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.box_portfolio0 {
+  width: 15.3vw;
+  height: 30vw;
+}
+
+.box_portfolio1 {
+  width: 15.3vw;
+  height: 27.6vw;
+}
+
+.box_portfolio2 {
+  width: 15.3vw;
+  height: 30.1vw;
+}
+
+.box_portfolio3 {
+  width: 15.3vw;
+  height: 27.7vw;
+}
+
+.box_portfolio4 {
+  width: 15.3vw;
+  height: 30.1vw;
+}
+
+.portfolio0 {
+  background: url("../images/portfolios/portfolio0.png");
+  background-size: cover;
+  width: 15.1vw;
+  height: 23.6vw;
+
+}
+
+.portfolio1 {
+  background: url("../images/portfolios/portfolio1.png");
+  background-size: cover;
+  width: 15.1vw;
+  height: 21.1vw;
+
+}
+
+.portfolio2 {
+  background: url("../images/portfolios/portfolio2.png");
+  background-size: cover;
+  width: 15.1vw;
+  height: 23.7vw;
+
+}
+
+.portfolio3 {
+  background: url("../images/portfolios/portfolio3.png");
+  background-size: cover;
+  width: 15.1vw;
+  height: 21.1vw;
+
+}
+
+.portfolio4 {
+  background: url("../images/portfolios/portfolio4.png");
+  background-size: cover;
+  width: 15.1vw;
+  height: 23.7vw;
+
+}
+
+.portfolio_title {
+  margin-top: 0.8vw;
+  text-align: left;
+  font: normal normal medium 28px/38px Roc Grotesk;
+}
+
+.portfolio_description {
+  text-align: left;
+  font: normal normal medium 22px/30px Gopher;
+  color: #FA7B26;
+}
+
+/* END OF THE CSS CODE FOR THE "PORTFOLIOS" SECTION */
+
+/* FOOTER SECTION */
+
+.footer {
+  position: absolute;
+  text-align: center;
+  top: 316.5vh;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.facebook,
+.instagram {
+  width: 3.50vw;
+  height: 3vw;
+  margin-bottom: 1.6vw;
+  margin-left: 0.5vw;
+  margin-right: 0.5vw;
+}
+
+/* END OF THE FOOTER SECTION */
 
 
 /*--OUR STORY page: Present time slide--*/
