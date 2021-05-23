@@ -36,22 +36,27 @@ header {
   text-align: center;
   padding: 10vh;
 }
-.logo img{
+
+.logo img {
   width: 170px;
   margin-left: 40px;
 }
-.top-bar{
+
+.top-bar {
   width: 92%;
   float: right;
   padding: 25px 0;
 }
-.header-some-icons{
+
+.header-some-icons {
   margin-top: 10px;
 }
-.header-some-icons img{
+
+.header-some-icons img {
   width: 55px;
 }
-.side-bar{
+
+.side-bar {
   padding-top: 20px;
   text-align: center;
   display: flex;
@@ -61,36 +66,43 @@ header {
   width: 8%;
   float: left;
 }
-.header-container{
+
+.header-container {
   margin: auto;
   width: 80%;
   display: flex;
   flex-direction: row;
 }
-.header-headline{
+
+.header-headline {
   padding-top: 100px;
   margin-left: 100px;
   z-index: 2;
 }
-.header-headline H1{
+
+.header-headline H1 {
   color: #5B1BDB;
   font-size: 90px;
 }
-.header-headline H3{
+
+.header-headline H3 {
   color: #5B1BDB;
   font-weight: 400;
   font-size: 60px;
   margin-top: -40px;
   margin-right: -270px;
 }
-.header-img{
+
+.header-img {
   align-self: flex-end;
   margin-left: -150px;
   margin-top: -100px;
 }
-.header-img img{
+
+.header-img img {
   max-width: 700px;
 }
+
 /* BACKGROUND COLORS */
 .background-orange {
   background: #FA7B26 !important;
@@ -448,16 +460,11 @@ input {
 
 /* CSS CODE FOR THE "EVENTS" SECTION (Coded by Marius) */
 
+
 .background_events {
   position: relative;
-  background-color: #ECE9E1;
-  width: 100vw;
-  height: 110vh;
-
-}
-
-.background_texture_events {
   background: url("../images/texture/bg.png") no-repeat center center fixed;
+  background-color: #ECE9E1;
   width: 100vw;
   height: 110vh;
 
@@ -490,8 +497,10 @@ input {
 }
 
 .event_date {
-  font-weight: medium;
   text-align: right;
+  font: bold 1.48vw/2vw gopher;
+  color: #121212;
+  text-transform: uppercase;
 }
 
 .event_image {
@@ -502,27 +511,28 @@ input {
 }
 
 .event_textbox {
-  width: 32vw;
+  width: 33vw;
+  max-height: 248px;
 }
 
 .event_title {
   text-align: left;
-  font: medium 28px/38px Roc Grotesk;
+  font: bold 1.48vw/2vw gopher;
   color: #121212;
   text-transform: uppercase;
 }
 
 .event_description {
-  margin-top: 1.7vw;
+  margin-top: 1.5vw;
   margin-bottom: 1vw;
   text-align: left;
-  font: 22px/46px Gopher;
+  font: 1.16vw/2.44vw Gopher;
   color: #121212;
 }
 
 .event_button {
   text-align: left;
-  font: bold 22px/46px Gopher;
+  font: bold 1.16vw/2.44vw Gopher;
   color: #121212;
 }
 
@@ -1137,6 +1147,269 @@ input {
     width: 500px;
     height: 234px;
   }
+
+  .flexbox_becomemember {
+    margin: 0;
+    position: absolute;
+    top: 550px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .textbox_becomemember {
+    width: 500px;
+    margin-top: 0;
+  }
+
+  .illustration_becomemember {
+    margin-left: 0;
+    width: 274px;
+    height: 360px;
+    margin: 0 auto;
+    margin-top: 50px;
+
+  }
+
+  .section_events {
+    width: 70vw;
+    margin: 0 auto;
+    margin-top: 10%;
+
+  }
+
+  .flexbox_events {
+    margin-top: 4vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .box_events {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 70vw;
+    margin-bottom: 25px;
+  }
+
+  .event_date {
+    text-align: right;
+    font: bold 1.6vw gopher;
+    color: #121212;
+    text-transform: uppercase;
+  }
+
+  .event_image {
+    background: url("../images/events/event0.jpg");
+    background-size: cover;
+    width: 25vw;
+    height: 15vw;
+  }
+
+  .event_textbox {
+    width: 40vw;
+    max-height: 15vw;
+  }
+
+  .event_title {
+    text-align: left;
+    font: bold 1.6vw gopher;
+    color: #121212;
+    text-transform: uppercase;
+  }
+
+  .event_description {
+    text-align: left;
+    font: 1.4vw/2.7vw Gopher;
+    color: #121212;
+    margin-bottom: 1vw;
+  }
+
+  .event_button {
+    text-align: left;
+    font: bold 1.4vw Gopher;
+    color: #121212;
+  }
+
+  .members_title {
+    text-align: left;
+    font: bold 3vw Roc Grotesk;
+    color: #5B1BDB;
+    margin-bottom: 30px;
+    margin-left: 30px;
+  }
+
+}
+
+@media only screen and (max-width: 520px) {
+
+  .background_whoweare {
+    position: relative;
+    background: url("../images/texture/bg1.png") no-repeat center center fixed;
+    background-color: #5B1BDB;
+    width: 100vw;
+    height: 100vh;
+    z-index: 3;
+    margin: auto;
+  }
+
+  .flexbox_whoweare {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .textbox_whoweare {
+    width: 80vw;
+  }
+
+  .header_whoweare {
+    text-align: left;
+    font: bold 5vw/5vw Roc Grotesk;
+    color: #ECE9E1;
+  }
+
+  .body_whoweare {
+    text-align: left;
+    font: 4vw/8vw Gopher;
+    color: #ECE9E1;
+    margin-top: 2vw;
+  }
+
+  .button_whoweare {
+    background: #FA7B26;
+    text-align: center;
+    font: 4vw/6vw Gopher;
+    color: #ECE9E1;
+    text-transform: uppercase;
+    padding: 2vw 7vw;
+    float: right;
+    margin-top: 3vw;
+
+  }
+
+  .icon_select {
+    position: absolute;
+    margin-top: 5vw;
+    margin-left: 30vw;
+    width: 20vw;
+    height: 20.4vw;
+  }
+
+  .illustration_splash {
+    position: absolute;
+    top: 6.5vw;
+    left: -5vw;
+    width: 42vw;
+    height: 8.7vw;
+    z-index: -1;
+  }
+
+  .illustration_whoarewe {
+    margin-top: 25vw;
+    width: 80vw;
+    height: 37vw;
+  }
+
+  .flexbox_becomemember {
+    margin: 0;
+    position: absolute;
+    top: 550px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .textbox_becomemember {
+    width: 80vw;
+    margin-top: 0;
+  }
+
+  .illustration_becomemember {
+    margin-left: 0;
+    width: 50vw;
+    height: 65.5vw;
+    margin: 0 auto;
+    margin-top: 50px;
+
+  }
+
+  .section_events {
+    width: 380px;
+    margin: 0 auto;
+    margin-top: 250px;
+  }
+
+  .flexbox_events {
+    margin-top: 4vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .box_events {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 380px;
+    margin-bottom: 25px;
+  }
+
+  .event_date {
+    text-align: right;
+    font: bold 10px/12px gopher;
+    color: #121212;
+    text-transform: uppercase;
+  }
+
+  .event_image {
+    background: url("../images/events/event0.jpg");
+    background-size: cover;
+    width: 100px;
+    height: 83px;
+  }
+
+  .event_textbox {
+    width: 250px;
+    max-height: 83px;
+  }
+
+  .event_title {
+    text-align: left;
+    font: bold 10px/12px gopher;
+    color: #121212;
+    text-transform: uppercase;
+  }
+
+  .event_description {
+    text-align: left;
+    font: 10px/14px Gopher;
+    color: #121212;
+  }
+
+  .event_button {
+    text-align: left;
+    font: bold 10px/12px Gopher;
+    color: #121212;
+  }
+
+  .members_title {
+    text-align: left;
+    font: bold 20px/33px Roc Grotesk;
+    color: #5B1BDB;
+    margin-bottom: 30px;
+    margin-left: 30px;
+  }
 }
 
 @media only screen and (max-width: 480px) {
@@ -1268,76 +1541,6 @@ input {
   }
 
   /* (Mobile) END OF CSS CODE FOR "OUR STORY" PAGE: Footer (Coded by Vlada) */
-  .background_whoweare {
-    position: relative;
-    background: url("../images/texture/bg1.png") no-repeat center center fixed;
-    background-color: #5B1BDB;
-    width: 100vw;
-    height: 100vh;
-    z-index: 3;
-    margin: auto;
-  }
 
-  .flexbox_whoweare {
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
 
-  .textbox_whoweare {
-    width: 80vw;
-  }
-
-  .header_whoweare {
-    text-align: left;
-    font: bold 5vw/5vw Roc Grotesk;
-    color: #ECE9E1;
-  }
-
-  .body_whoweare {
-    text-align: left;
-    font: 4vw/8vw Gopher;
-    color: #ECE9E1;
-    margin-top: 2vw;
-  }
-
-  .button_whoweare {
-    background: #FA7B26;
-    text-align: center;
-    font: 4vw/6vw Gopher;
-    color: #ECE9E1;
-    text-transform: uppercase;
-    padding: 2vw 7vw;
-    float: right;
-    margin-top: 3vw;
-
-  }
-
-  .icon_select {
-    position: absolute;
-    margin-top: 5vw;
-    margin-left: 30vw;
-    width: 20vw;
-    height: 20.4vw;
-  }
-
-  .illustration_splash {
-    position: absolute;
-    top: 6.5vw;
-    left: -5vw;
-    width: 42vw;
-    height: 8.7vw;
-    z-index: -1;
-  }
-
-  .illustration_whoarewe {
-    margin-top: 25vw;
-    width: 80vw;
-    height: 37vw;
-  }
 }
