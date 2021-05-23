@@ -38,12 +38,14 @@ header {
 }
 .logo img{
   width: 170px;
-  margin-left: 40px;
+  margin-left: 100px;
 }
 .top-bar{
   width: 92%;
   float: right;
   padding: 25px 0;
+  position: absolute;
+  left: 7%;
 }
 .header-some-icons{
   margin-top: 10px;
@@ -66,15 +68,20 @@ header {
   width: 80%;
   display: flex;
   flex-direction: row;
+  margin-top: -80px;
+}
+.header-container div{
+  margin: auto;
 }
 .header-headline{
-  padding-top: 100px;
   margin-left: 100px;
+  margin-top: -300px;
   z-index: 2;
 }
 .header-headline H1{
   color: #5B1BDB;
   font-size: 90px;
+  margin-right: -280px;
 }
 .header-headline H3{
   color: #5B1BDB;
@@ -86,10 +93,11 @@ header {
 .header-img{
   align-self: flex-end;
   margin-left: -150px;
-  margin-top: -100px;
+  margin-top: -200px;
 }
 .header-img img{
   max-width: 700px;
+  width: 100%;
 }
 /* BACKGROUND COLORS */
 .background-orange {
@@ -1064,6 +1072,37 @@ input {
 
 @media only screen and (max-width: 1200px) {
 
+  .header-container{
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    margin-top: 100px;
+  }
+  .header-headline{
+    padding-top: 0;
+    margin-top: -50px;
+    margin-left: -50px;
+  }
+  .header-headline H1{
+    font-size: 60px;
+    font-weight: 400;
+    margin-right: 0;
+  }
+  .header-headline H3{
+    font-weight: 400;
+    font-size: 40px;
+    margin-top: -20px;
+    margin-right: -270px;
+  }
+  .header-img{
+    margin-left: -150px;
+    margin-top: -100px;
+    margin: auto;
+  }
+  .header-img img{
+    max-width: 400px;
+    width: 100%;
+  }
+
   .background_whoweare {
     position: relative;
     background: url("../images/texture/bg1.png") no-repeat center center fixed;
@@ -1140,6 +1179,15 @@ input {
 }
 
 @media only screen and (max-width: 480px) {
+
+  .header-headline H1{
+    font-size: 40px;
+  }
+  .header-headline H3{
+    font-size: 20px;
+    margin-top: -20px;
+    margin-right: -150px;
+  }
 
   /* (Mobile) CSS CODE FOR "OUR STORY" PAGE: Present time section (Coded by Vlada) */
   .background-present {
