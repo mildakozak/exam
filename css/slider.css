@@ -1,0 +1,103 @@
+/* CSS CODE FOR THE "SLIDER" SECTION (Coded by Bara) */
+
+.carloasw {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url("../images/texture/bg.png") no-repeat center center fixed;
+    z-index: -2;
+    width: 100vw;
+    height: 100vh;
+}
+
+.header_slider_through {
+    color: #121212;
+    position: absolute;
+    top: 100rem;
+    left: 30rem;
+}
+
+.header_slider_so {
+    color: #121212;
+    position: absolute;
+    top: 102rem;
+    left: 38rem;
+
+}
+
+.splash-slider {
+    position: absolute;
+    top: 99rem;
+    left: 62vh;
+    height: 3vw;
+    z-index: -1;
+}
+
+#wrapper {
+    width: 100%;
+    max-width: 80rem;
+    position: relative;
+}
+
+#carousel {
+    overflow: auto;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+}
+
+#carousel::-webkit-scrollbar {
+    height: 0;
+}
+
+#prev,
+#next {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background: white;
+    border: none;
+    padding: 8px;
+    border-radius: 50%;
+    outline: 0;
+    cursor: pointer;
+    position: absolute;
+}
+
+#prev {
+    top: 50%;
+    left: 0;
+    transform: translate(50%, -50%);
+    display: none;
+}
+
+#next {
+    top: 50%;
+    right: 0;
+    transform: translate(-50%, -50%);
+}
+
+#content {
+    display: grid;
+    grid-gap: 3rem;
+    grid-auto-flow: column;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+.polariod {
+    border: solid white 2vh;
+    background-color: white;
+}
+
+.item {
+    width: 180px;
+    height: 180px;
+
+}
+
+.text_polariod {
+    margin: 1vh 0 0 0;
+    text-align: center;
+}
