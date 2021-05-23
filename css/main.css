@@ -10,17 +10,11 @@ H3 {
   font-style: normal;
 }
 
-H3 {
-  font-size: 32px;
-}
-
 p,
 a {
   font-family: gopher, sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 18px;
-  line-height: 1.8;
 }
 
 a {
@@ -36,69 +30,7 @@ header {
   text-align: center;
   padding: 10vh;
 }
-.logo img{
-  width: 170px;
-  margin-left: 100px;
-}
-.top-bar{
-  width: 92%;
-  float: right;
-  padding: 25px 0;
-  position: absolute;
-  left: 7%;
-}
-.header-some-icons{
-  margin-top: 10px;
-}
-.header-some-icons img{
-  width: 55px;
-}
-.side-bar{
-  padding-top: 20px;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  position: absolute;
-  height: 100%;
-  width: 8%;
-  float: left;
-}
-.header-container{
-  margin: auto;
-  width: 80%;
-  display: flex;
-  flex-direction: row;
-  margin-top: -60px;
-}
-.header-container div{
-  margin: auto;
-}
-.header-headline{
-  margin-left: 100px;
-  margin-top: -300px;
-  z-index: 2;
-}
-.header-headline H1{
-  color: #5B1BDB;
-  font-size: 90px;
-  margin-right: -280px;
-}
-.header-headline H3{
-  color: #5B1BDB;
-  font-weight: 400;
-  font-size: 60px;
-  margin-top: -40px;
-  margin-right: -270px;
-}
-.header-img{
-  align-self: flex-end;
-  margin-left: -150px;
-  margin-top: -200px;
-}
-.header-img img{
-  max-width: 700px;
-  width: 100%;
-}
+
 /* BACKGROUND COLORS */
 .background-orange {
   background: #FA7B26 !important;
@@ -130,10 +62,6 @@ header {
   color: #ECE9E1 !important;
 }
 
-.font-black {
-  color: #121212 !important;
-}
-
 .button {
   margin: 30px;
   font: 1.2em Gopher;
@@ -163,105 +91,6 @@ header {
   margin-left: 25px;
   padding-left: 20px;
   z-index: 1;
-}
-
-/* CIRLCE */
-.progress-ring__circle {
-  transition: 0.35s stroke-dashoffset;
-  // axis compensation
-  transform: rotate(-90deg);
-  transform-origin: 50% 50%;
-}
-
-input {
-  position: fixed;
-  top: 10px;
-  left: 10px;
-  width: 80px;
-}
-
-.circle-content-wrapper {
-  width: 400px;
-  height: 320px;
-  position: absolute;
-  margin-left: auto;
-  margin-right: auto;
-  top: 270px;
-  left: 0;
-  right: 0;
-  text-align: center;
-}
-
-.section-circle {
-  position: relative;
-  padding: 50px 0;
-  background-image: url("../images/texture/bg.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-#circle-progress {
-  display: none;
-}
-
-.circle-wrapper {
-  width: 700px;
-  height: 700px;
-  margin: auto;
-}
-
-.something-else {
-  height: 100vh;
-  background-color: blue;
-}
-
-.progress-ring {}
-
-.button-play {
-  border: none;
-  background: #5B1EDB;
-  height: 50px;
-  width: 50px;
-  border-radius: 50%;
-  padding-left: 10px;
-  position: absolute;
-  bottom: 0;
-  left: 190px;
-  transition: all .5s;
-}
-.button-play:hover {
-  background: #2F1C57;
-  transition: all .5s;
-}
-
-.progress-ring__circle {
-  transition: 0.35s stroke-dashoffset;
-  // axis compensation
-  transform: rotate(-90deg);
-  transform-origin: 50% 50%;
-}
-
-#headline-replace {
-  float: left;
-  color: #5C1CDB;
-  font-weight: 400 !important;
-}
-
-#headline-replace-2 {
-  float: right;
-  color: #5C1CDB;
-}
-
-#p-replace {
-  margin-top: 15px;
-  float: left;
-}
-
-input {
-  position: fixed;
-  top: 10px;
-  left: 10px;
-  width: 80px;
 }
 
 /* BLUE SIDE NAVIGATION */
@@ -346,29 +175,25 @@ input {
 
 .background_whoweare {
   position: relative;
-  background: url("../images/texture/bg1.png") no-repeat center center fixed;
   background-color: #5B1BDB;
   width: 100vw;
   height: 100vh;
   z-index: 3;
-  margin: auto;
+
 }
 
-.flexbox_whoweare {
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+.background_texture_whoweare {
+  background: url("../images/texture/bg1.png") no-repeat center center fixed;
+  width: 100vw;
+  height: 100vh;
+
 }
-
-
 
 .textbox_whoweare {
+  position: absolute;
   width: 41vw;
+  left: 10vw;
+  top: 16vw;
 }
 
 .header_whoweare {
@@ -414,8 +239,10 @@ input {
 }
 
 .illustration_whoarewe {
-  width: 38vw;
-  height: 17.9vw;
+  position: absolute;
+  top: 17vw;
+  right: 5vw;
+  width: 40vw;
 }
 
 /* END OF THE CSS CODE FOR THE "WHO WE ARE" SECTION */
@@ -424,125 +251,42 @@ input {
 
 .background_becomemember {
   position: relative;
-  background: url("../images/texture/bg2.png") no-repeat center center fixed;
   background-color: #FA7B26;
+  width: 100vw;
+  height: 100vh;
+
+}
+
+.background_texture_becomemember {
+  background: url("../images/texture/bg2.png") no-repeat center center fixed;
   width: 100vw;
   height: 100vh;
 }
 
-.flexbox_becomemember {
-  margin: 0;
-  position: absolute;
-  top: 30vw;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
-
-
 .textbox_becomemember {
+  position: absolute;
   width: 41vw;
-  margin-top: 3vw;
+  right: 10vw;
+  top: 16vw;
 }
 
+
+.bg_blue {
+  background-color: #5B1BDB;
+  float: left;
+
+}
 
 .illustration_becomemember {
-  margin-left: 10vw;
+  position: absolute;
+  top: 13vw;
+  left: 13vw;
   width: 25vw;
-  height: 32.7vw;
 
 }
 
 
 /* END OF THE CSS CODE FOR THE "BECOME A MEMBER" SECTION */
-
-/* CSS CODE FOR THE "EVENTS" SECTION (Coded by Marius) */
-
-.background_events {
-  position: relative;
-  background-color: #ECE9E1;
-  width: 100vw;
-  height: 110vh;
-
-}
-
-.background_texture_events {
-  background: url("../images/texture/bg.png") no-repeat center center fixed;
-  width: 100vw;
-  height: 110vh;
-
-}
-
-.section_events {
-  position: absolute;
-  width: 49.3vw;
-  height: auto;
-  top: 4vw;
-  left: 0;
-  right: 0;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.flexbox_events {
-  margin-top: 4vw;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-.box_events {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  width: 61.5vw;
-  margin-bottom: 2vw;
-}
-
-.event_date {
-  font-weight: medium;
-  text-align: right;
-}
-
-.event_image {
-  background: url("../images/events/event0.jpg");
-  background-size: cover;
-  width: 22.1vw;
-  height: 13.1vw;
-}
-
-.event_textbox {
-  width: 32vw;
-}
-
-.event_title {
-  text-align: left;
-  font: medium 28px/38px Roc Grotesk;
-  color: #121212;
-  text-transform: uppercase;
-}
-
-.event_description {
-  margin-top: 1.7vw;
-  margin-bottom: 1vw;
-  text-align: left;
-  font: 22px/46px Gopher;
-  color: #121212;
-}
-
-.event_button {
-  text-align: left;
-  font: bold 22px/46px Gopher;
-  color: #121212;
-}
-
-
-
-
-/* END OF THE CSS CODE FOR THE "EVENTS" SECTION */
 
 .background_scrolling {
   position: relative;
@@ -562,23 +306,17 @@ input {
 /* CSS CODE FOR THE "MEMBERS" SECTION (Coded by Marius) */
 
 .section_members {
+  position: absolute;
   width: 49.3vw;
-  height: 44.2vw;
+  height: 39.2vw;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  top: 11vw;
   left: 0;
   right: 0;
   margin-left: auto;
   margin-right: auto;
-
-}
-
-.members_title {
-  text-align: left;
-  font: bold 2vw/0vw Roc Grotesk;
-  color: #5B1BDB;
-  margin-bottom: 2vw;
 }
 
 .flexbox_members {
@@ -588,7 +326,7 @@ input {
 }
 
 .box_member0 {
-  background: url("../images/members/member0.png");
+  background: url("../images/members/member1.png");
   background-size: cover;
   width: 8.3vw;
   height: 8.3vw;
@@ -725,7 +463,6 @@ input {
 }
 
 .text_overlay {
-  line-height: 1.2vw;
   color: #ECE9E1;
   position: absolute;
   top: 50%;
@@ -759,22 +496,18 @@ input {
 /* END OF THE CSS CODE FOR THE "MEMBERS" SECTION */
 
 /* CSS CODE FOR THE "PORTFOLIOS" SECTION (Coded by Marius) */
-
 .section_portfolios {
   position: absolute;
   width: 32.8vw;
   height: auto;
-  top: 120.5vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  top: 124.5vh;
   left: 0;
   right: 0;
   margin-left: auto;
   margin-right: auto;
-}
-
-.flexbox_portfolios {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
 }
 
 .column_portfolios {
@@ -886,9 +619,94 @@ input {
 
 /* END OF THE FOOTER SECTION */
 
+/* CSS CODE FOR THE "VIDEO INTRO" SECTION (Coded by Bara) */
+
+.insta_video{
+  width: 3vw;
+  position:absolute;
+  top:3vh;
+   left: 1.5vw;
+}
+
+.fb_video{
+  width: 3vw;
+  position:absolute;
+  top:10vh;
+  left: 1.5vw;
+}
+
+.turn{
+transform: rotate(270deg); color:#ECE9E1; font-size: 2vh; position: absolute; top: 26vh;
+
+}
+/* END OF THE CSS CODE FOR THE "VIDEO INTRO" SECTION */
+
+/* CSS CODE FOR THE "CAME LONG WAY" SECTION (Coded by Bara) */
+
+.background_way {
+  position: relative;
+  background: url("../images/texture/bg2.png") no-repeat center center fixed;
+background-color: #5B1BDB;
+  width: 100vw;
+  height: 100vh;
+  z-index: -2;
+}
+
+.box_way{
+  display: flex;
+  flex-direction: row;
+}
+
+.text_way{
+  padding-top: 14vw;
+  padding-left: 10.5vw;
+  padding-right: 8vw;
+}
+
+.header_way_we{
+  color: #ECE9E1;
+  position: absolute;
+  top: 7rem;
+  left: 10rem;
+
+
+}
+.header_way_with{
+  color: #ECE9E1;
+  position: absolute;
+  top: 8.7rem;
+  left: 28rem;
+
+
+}
+.blocktext_way {
+  text-align: left;
+  font: 1.1vw/2vw Gopher;
+  color:#ECE9E1;
+}
+
+
+.splash-way{
+  position: absolute;
+  top: 6.8rem;
+  left: 9.5rem;
+  width: 14vw;
+  height: 3vw;
+  z-index: -1;
+}
+
+.img-story{
+  display: block;
+  max-width: 48%;
+}
+/* END OF THE CSS CODE FOR THE "CAME LONG WAY" SECTION */
+
+/* CSS CODE FOR THE "SLIDER HEADING" SECTION (Coded by Bara) */
+
 
 /* CSS CODE FOR "OUR STORY" PAGE: Present time section (Coded by Vlada) */
 .background-present {
+  position: relative;
   background: url("../images/texture/bg2.png") no-repeat center center fixed;
   background-color: #FA7B26;
   width: 100vw;
@@ -924,9 +742,8 @@ input {
 
 .img-story {
   display: block;
-  max-width: 47%;
+  max-width: 48%;
 }
-
 /* END OF CSS CODE FOR "OUR STORY" PAGE: Present time section (Coded by Vlada) */
 
 /* CSS CODE FOR "OUR STORY" PAGE: Petition section (Coded by Vlada) */
@@ -936,13 +753,7 @@ input {
   background-color: #ECE9E1;
   width: 100vw;
   height: 100vh;
-  z-index: 1;
-}
-
-.flex-img-text2 {
-  display: flex;
-  flex-direction: row;
-  z-index: 2;
+  z-index: -2;
 }
 
 .text-support {
@@ -966,7 +777,7 @@ input {
   color: #121212;
 }
 
-.support-text {
+.support-text{
   text-align: left;
   font: 1.1vw/2vw Gopher;
   color: #121212;
@@ -978,12 +789,6 @@ input {
   margin-top: 1.3vw;
   width: 30%;
   text-align: center;
-  z-index: 5;
-}
-
-.btn-sup:hover {
-  background-color: #5B1BDB;
-  transition: background-color .3s;
 }
 
 .hands-sup {
@@ -992,9 +797,7 @@ input {
   bottom: 1.5vw;
   width: 4.6vw;
   height: 4.7vw;
-  z-index: 1;
 }
-
 /* END OF CSS CODE FOR "OUR STORY" PAGE: Petition section (Coded by Vlada)*/
 
 /* CSS CODE FOR "OUR STORY" PAGE: Footer (Coded by Vlada) */
@@ -1004,12 +807,11 @@ input {
   background-color: #5B1BDB;
   width: 100vw;
   height: 100vh;
-  z-index: 1;
+  z-index: -2;
 }
 
 .story-head {
   height: 80vh;
-  z-index: 2;
 }
 
 .story-logo {
@@ -1038,12 +840,6 @@ input {
   text-align: center;
   text-transform: uppercase;
   padding: 10px 5px;
-  z-index: 5;
-}
-
-.btn-story:hover {
-  background-color: #5B1BDB;
-  transition: background-color .3s;
 }
 
 .story-contact {
@@ -1054,7 +850,7 @@ input {
   text-decoration: underline;
 }
 
-.some-story {
+.some-story{
   display: flex;
   justify-content: center;
   padding: 10px;
@@ -1063,7 +859,6 @@ input {
 .story-icon {
   margin: 5px;
   width: 3vw;
-  z-index: 5;
 }
 
 .copyright {
@@ -1075,322 +870,77 @@ input {
 
 /* END OF CSS CODE FOR "OUR STORY" PAGE: Footer (Coded by Vlada) */
 
-@media only screen and (max-width: 1200px) {
-
-  .header-container{
-    flex-wrap: wrap;
-    flex-direction: column-reverse;
-    margin-top: 100px;
-  }
-  .header-headline{
-    padding-top: 0;
-    margin-top: -50px;
-    margin-left: -50px;
-  }
-  .header-headline H1{
-    font-size: 60px;
-    font-weight: 400;
-    margin-right: 0;
-  }
-  .header-headline H3{
-    font-weight: 400;
-    font-size: 40px;
-    margin-top: -20px;
-    margin-right: -270px;
-  }
-  .header-img{
-    margin-left: -150px;
-    margin-top: -100px;
-    margin: auto;
-  }
-  .header-img img{
-    max-width: 400px;
-    width: 100%;
+@media only screen and (max-width: 600px) {
+  .textbox_becomemember {
+    position: absolute;
+    width: 41vw;
+    top: 10%;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
   }
 
-  .background_whoweare {
-    position: relative;
-    background: url("../images/texture/bg1.png") no-repeat center center fixed;
-    background-color: #5B1BDB;
-    width: 100vw;
-    height: 100vh;
-    z-index: 3;
-    margin: auto;
-  }
-
-  .flexbox_whoweare {
-    margin: 0;
+  .illustration_becomemember {
+    width: 260px;
     position: absolute;
     top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
 
-
-
-  .textbox_whoweare {
-    width: 500px;
-  }
-
-  .header_whoweare {
-    text-align: left;
-    font: bold 26px/36px Roc Grotesk;
-    color: #ECE9E1;
-  }
-
-  .body_whoweare {
-    text-align: left;
-    font: 16px/36px Gopher;
-    color: #ECE9E1;
-    margin-top: 20px;
-  }
-
-  .button_whoweare {
-    background: #FA7B26;
-    text-align: center;
-    font: 18px/30px Gopher;
-    color: #ECE9E1;
-    text-transform: uppercase;
-    padding: 4px 30px;
-    float: right;
-    margin-top: 20px;
 
   }
 
-  .icon_select {
-    position: absolute;
-    margin-top: 40px;
-    margin-left: 295px;
-    width: 60px;
-    height: 63px;
-  }
-
-  .illustration_splash {
-    position: absolute;
-    top: 55px;
-    left: -25px;
-    width: 172px;
-    height: 35px;
-    z-index: -1;
-  }
-
-  .illustration_whoarewe {
-    width: 500px;
-    height: 234px;
-  }
 }
 
-@media only screen and (max-width: 480px) {
 
-  .header-headline H1{
-    font-size: 40px;
-  }
-  .header-headline H3{
-    font-size: 20px;
-    margin-top: -20px;
-    margin-right: -150px;
-  }
-
-  /* (Mobile) CSS CODE FOR "OUR STORY" PAGE: Present time section (Coded by Vlada) */
-  .background-present {
-    z-index: -2;
+@media only screen and (max-width: 1024px) {
+  .textbox_becomemember {
+    position: absolute;
+    width: 41vw;
+    top: 10%;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
   }
 
-  .flex-img-text {
-    flex-direction: column;
-    justify-content: space-between;
-    height: 100vh;
-  }
-
-  .flex-text {
-    padding-top: 30vw;
-    padding-left: 16vw;
-    z-index: 2;
-  }
-
-  .text-present {
-    font: 4.5vw/6vw Roc Grotesk;
-  }
-
-  .img-story {
-    max-width: 100%;
-  }
-
-  .splash-present {
-    top: 28vw;
-    left: 13vw;
-    width: 32vw;
-    height: 8vw;
-    z-index: -1;
-  }
-
-  /* (Mobile) END OF CSS CODE FOR "OUR STORY" PAGE: Present time section (Coded by Vlada) */
-
-  /* (Mobile) CSS CODE FOR "OUR STORY" PAGE: Petition section (Coded by Vlada) */
-  .background-support {
-    height: 100vh;
-  }
-
-  .flex-img-text2 {
-    flex-direction: column;
-    justify-content: space-between;
-    height: 100vh;
-    overflow-y: auto;
-  }
-
-  .text-support {
-    padding-top: 13vw;
-    padding-left: 16vw;
-    padding-right: 10vw;
-  }
-
-  .head-support {
-    font: 4.5vw/6vw Roc Grotesk;
-  }
-
-  .support-text {
-    font: 3vw/4.5vw Gopher;
-  }
-
-  .btn-sup {
-    margin-top: 4vw;
-    margin-bottom: 10vw;
-    font: 2.7vw Gopher;
-    width: 20%;
-    padding: 8px 15px;
-    text-align: center;
-  }
-
-  .splash-support {
-    display: none;
-  }
-
-  .hands-sup {
-    display: none;
-  }
-
-  /* (Mobile) END OF CSS CODE FOR "OUR STORY" PAGE: Petition section (Coded by Vlada) */
-
-  /* (Mobile) CSS CODE FOR "OUR STORY" PAGE: Footer (Coded by Vlada) */
-  .story-footer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-
-  .story-logo {
-    width: 80%;
-    padding-top: 10px;
-  }
-
-  .story-head {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-
-  .story-text {
-    font: 4.5vw/6vw Gopher;
-    color: #ECE9E1;
-    margin-top: 50px;
-  }
-
-  .btn-story {
-    margin-top: 4vw;
-    width: 20%;
-    font: 2.7vw Gopher;
-    background: #FA7B26;
-    color: #ECE9E1;
-    padding: 10px 7px;
-  }
-
-  .story-contact {
-    font: 3.5vw Gopher;
-  }
-
-  .story-icon {
-    margin: 5px 10px;
-    width: 8vw;
-  }
-
-  .copyright {
-    font: 2.7vw Roc Grotesk;
-  }
-
-  /* (Mobile) END OF CSS CODE FOR "OUR STORY" PAGE: Footer (Coded by Vlada) */
-  .background_whoweare {
-    position: relative;
-    background: url("../images/texture/bg1.png") no-repeat center center fixed;
-    background-color: #5B1BDB;
-    width: 100vw;
-    height: 100vh;
-    z-index: 3;
-    margin: auto;
-  }
-
-  .flexbox_whoweare {
-    margin: 0;
+  .illustration_becomemember {
+    width: 260px;
     position: absolute;
     top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
 
-  .textbox_whoweare {
-    width: 80vw;
-  }
-
-  .header_whoweare {
-    text-align: left;
-    font: bold 5vw/5vw Roc Grotesk;
-    color: #ECE9E1;
-  }
-
-  .body_whoweare {
-    text-align: left;
-    font: 4vw/8vw Gopher;
-    color: #ECE9E1;
-    margin-top: 2vw;
-  }
-
-  .button_whoweare {
-    background: #FA7B26;
-    text-align: center;
-    font: 4vw/6vw Gopher;
-    color: #ECE9E1;
-    text-transform: uppercase;
-    padding: 2vw 7vw;
-    float: right;
-    margin-top: 3vw;
 
   }
 
-  .icon_select {
+}
+
+@media only screen and (max-width: 1200px) {
+  .textbox_becomemember {
     position: absolute;
-    margin-top: 5vw;
-    margin-left: 30vw;
-    width: 20vw;
-    height: 20.4vw;
+    width: 41vw;
+    top: 10%;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
   }
 
-  .illustration_splash {
+  .illustration_becomemember {
     position: absolute;
-    top: 6.5vw;
-    left: -5vw;
-    width: 42vw;
-    height: 8.7vw;
-    z-index: -1;
+    top: 50%;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+
+
   }
 
-  .illustration_whoarewe {
-    margin-top: 25vw;
-    width: 80vw;
-    height: 37vw;
-  }
 }
