@@ -622,7 +622,6 @@ header {
 
 /* CSS CODE FOR "OUR STORY" PAGE: Present time section (Coded by Vlada) */
 .background-present {
-  position: relative;
   background: url("../images/texture/bg2.png") no-repeat center center fixed;
   background-color: #FA7B26;
   width: 100vw;
@@ -658,7 +657,7 @@ header {
 
 .img-story {
   display: block;
-  max-width: 48%;
+  max-width: 47%;
 }
 /* END OF CSS CODE FOR "OUR STORY" PAGE: Present time section (Coded by Vlada) */
 
@@ -670,6 +669,11 @@ header {
   width: 100vw;
   height: 100vh;
   z-index: -2;
+}
+
+.flex-img-text2 {
+  display: flex;
+  flex-direction: row;
 }
 
 .text-support {
@@ -783,8 +787,143 @@ header {
   color: #ECE9E1;
   text-decoration: underline;
 }
-
 /* END OF CSS CODE FOR "OUR STORY" PAGE: Footer (Coded by Vlada) */
+
+@media only screen and (max-width: 480px) {
+  
+  /* (Mobile) CSS CODE FOR "OUR STORY" PAGE: Present time section (Coded by Vlada) */
+  .background-present {
+    z-index: -2;
+  }
+  .flex-img-text {
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+  }
+
+  .flex-text {
+    padding-top: 30vw;
+    padding-left: 16vw;
+    z-index: 2;
+  }
+
+  .text-present {
+    font: 4.5vw/6vw Roc Grotesk;
+  }
+
+  .img-story {
+    max-width: 100%;
+  }
+
+  .splash-present {
+    top: 28vw;
+    left: 13vw;
+    width: 32vw;
+    height: 8vw;
+    z-index: -1;
+  }
+  /* (Mobile) END OF CSS CODE FOR "OUR STORY" PAGE: Present time section (Coded by Vlada) */
+
+  /* (Mobile) CSS CODE FOR "OUR STORY" PAGE: Petition section (Coded by Vlada) */
+  .background-support {
+    height: 100vh;
+  }
+
+  .flex-img-text2 {
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    overflow-y: auto;
+  }
+
+  .text-support {
+    padding-top: 13vw;
+    padding-left: 16vw;
+    padding-right: 10vw;
+  }
+  
+  .head-support {
+    font: 4.5vw/6vw Roc Grotesk;
+  }
+
+  .support-text {
+    font: 3vw/4.5vw Gopher;
+  }
+
+  .btn-sup {
+    margin-top: 4vw;
+    margin-bottom: 10vw;
+    font: 2.7vw Gopher;
+    width: 20%;
+    padding: 8px 15px;
+    text-align: center;
+  }
+
+  .splash-support {
+    top: 11vw;
+    left: 13vw;
+    width: 32vw;
+    height: 8vw;
+    z-index: -1;
+  }
+
+  .hands-sup {
+    display: block;
+    position: absolute;
+    left: 34vw;
+    top: 108vw;
+    width: 10vw;
+    height: 10vw;
+  }
+   /* (Mobile) END OF CSS CODE FOR "OUR STORY" PAGE: Petition section (Coded by Vlada) */
+
+   /* (Mobile) CSS CODE FOR "OUR STORY" PAGE: Footer (Coded by Vlada) */
+  .story-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .story-logo {
+    width: 80%;
+    padding-top: 10px;
+  }
+
+  .story-head {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .story-text {
+    font: 4.5vw/6vw Gopher;
+    color: #ECE9E1;
+    margin-top: 50px;
+  }
+  
+  .btn-story {
+    margin-top: 4vw;
+    width: 20%;
+    font: 2.7vw Gopher;
+    background: #FA7B26;
+    color: #ECE9E1;
+    padding: 10px 7px;
+  }
+  
+  .story-contact {
+    font: 3.5vw Gopher;
+  }
+  
+  .story-icon {
+    margin: 5px 10px;
+    width: 8vw;
+  }
+  
+  .copyright {
+    font: 2.7vw Roc Grotesk;
+  }
+  /* (Mobile) END OF CSS CODE FOR "OUR STORY" PAGE: Footer (Coded by Vlada) */
+}
 
 @media only screen and (max-width: 600px) {
   .textbox_becomemember {
