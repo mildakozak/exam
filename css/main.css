@@ -62,6 +62,10 @@ header {
   color: #ECE9E1 !important;
 }
 
+.font-black {
+  color: #121212 !important;
+}
+
 .button {
   margin: 30px;
   font: 1.2em Gopher;
@@ -288,6 +292,91 @@ header {
 
 /* END OF THE CSS CODE FOR THE "BECOME A MEMBER" SECTION */
 
+/* CSS CODE FOR THE "EVENTS" SECTION (Coded by Marius) */
+
+.background_events {
+  position: relative;
+  background-color: #ECE9E1;
+  width: 100vw;
+  height: 110vh;
+
+}
+
+.background_texture_events {
+  background: url("../images/texture/bg.png") no-repeat center center fixed;
+  width: 100vw;
+  height: 110vh;
+
+}
+
+.section_events {
+  position: absolute;
+  width: 49.3vw;
+  height: auto;
+  top: 4vw;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.flexbox_events {
+  margin-top: 4vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.box_events {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 61.5vw;
+  margin-bottom: 2vw;
+}
+
+.event_date {
+  font-weight: medium;
+  text-align: right;
+}
+
+.event_image {
+  background: url("../images/events/event0.jpg");
+  background-size: cover;
+  width: 22.1vw;
+  height: 13.1vw;
+}
+
+.event_textbox {
+  width: 32vw;
+}
+
+.event_title {
+  text-align: left;
+  font: medium 28px/38px Roc Grotesk;
+  color: #121212;
+  text-transform: uppercase;
+}
+
+.event_description {
+  margin-top: 1.7vw;
+  margin-bottom: 1vw;
+  text-align: left;
+  font: 22px/46px Gopher;
+  color: #121212;
+}
+
+.event_button {
+  text-align: left;
+  font: bold 22px/46px Gopher;
+  color: #121212;
+}
+
+
+
+
+/* END OF THE CSS CODE FOR THE "EVENTS" SECTION */
+
 .background_scrolling {
   position: relative;
   background-color: #ECE9E1;
@@ -308,15 +397,23 @@ header {
 .section_members {
   position: absolute;
   width: 49.3vw;
-  height: 39.2vw;
+  height: 44.2vw;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  top: 11vw;
+  top: 1vw;
   left: 0;
   right: 0;
   margin-left: auto;
   margin-right: auto;
+
+}
+
+.members_title {
+  text-align: left;
+  font: bold 2vw/0vw Roc Grotesk;
+  color: #5B1BDB;
+  margin-bottom: 2vw;
 }
 
 .flexbox_members {
@@ -326,7 +423,7 @@ header {
 }
 
 .box_member0 {
-  background: url("../images/members/member1.png");
+  background: url("../images/members/member0.png");
   background-size: cover;
   width: 8.3vw;
   height: 8.3vw;
@@ -496,18 +593,22 @@ header {
 /* END OF THE CSS CODE FOR THE "MEMBERS" SECTION */
 
 /* CSS CODE FOR THE "PORTFOLIOS" SECTION (Coded by Marius) */
+
 .section_portfolios {
   position: absolute;
   width: 32.8vw;
   height: auto;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  top: 124.5vh;
+  top: 120.5vh;
   left: 0;
   right: 0;
   margin-left: auto;
   margin-right: auto;
+}
+
+.flexbox_portfolios {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .column_portfolios {
@@ -659,6 +760,7 @@ header {
   display: block;
   max-width: 47%;
 }
+
 /* END OF CSS CODE FOR "OUR STORY" PAGE: Present time section (Coded by Vlada) */
 
 /* CSS CODE FOR "OUR STORY" PAGE: Petition section (Coded by Vlada) */
@@ -697,7 +799,7 @@ header {
   color: #121212;
 }
 
-.support-text{
+.support-text {
   text-align: left;
   font: 1.1vw/2vw Gopher;
   color: #121212;
@@ -718,6 +820,7 @@ header {
   width: 4.6vw;
   height: 4.7vw;
 }
+
 /* END OF CSS CODE FOR "OUR STORY" PAGE: Petition section (Coded by Vlada)*/
 
 /* CSS CODE FOR "OUR STORY" PAGE: Footer (Coded by Vlada) */
@@ -770,7 +873,7 @@ header {
   text-decoration: underline;
 }
 
-.some-story{
+.some-story {
   display: flex;
   justify-content: center;
   padding: 10px;
