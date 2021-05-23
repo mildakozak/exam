@@ -9,17 +9,12 @@ H3 {
   font-weight: 600;
   font-style: normal;
 }
-H3{
-  font-size: 32px;
-}
 
 p,
 a {
   font-family: gopher, sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 18px;
-  line-height: 1.8;
 }
 
 a {
@@ -35,6 +30,7 @@ header {
   text-align: center;
   padding: 10vh;
 }
+
 /* BACKGROUND COLORS */
 .background-orange {
   background: #FA7B26 !important;
@@ -66,10 +62,6 @@ header {
   color: #ECE9E1 !important;
 }
 
-.font-black {
-  color: #121212 !important;
-}
-
 .button {
   margin: 30px;
   font: 1.2em Gopher;
@@ -99,88 +91,6 @@ header {
   margin-left: 25px;
   padding-left: 20px;
   z-index: 1;
-}
-
-/* CIRLCE */
-.progress-ring__circle {
-transition: 0.35s stroke-dashoffset;
-// axis compensation
-transform: rotate(-90deg);
-transform-origin: 50% 50%;
-}
-
-input {
-position: fixed;
-top: 10px;
-left: 10px;
-width: 80px;
-}
-.circle-content-wrapper{
-  width: 400px;
-  height: 320px;
-  position: absolute;
-  margin-left: auto;
-  margin-right: auto;
-  top: 270px;
-  left: 0;
-  right: 0;
-  text-align: center;
-}
-.section-circle{
-  position: relative;
-  padding: 50px 0;
-}
-#circle-progress{
-  display: none;
-}
-.circle-wrapper{
-  width: 700px;
-  height: 700px;
-  margin: auto;
-}
-.something-else{
-  height: 100vh;
-  background-color: blue;
-}
-.progress-ring {
-
-}
-.button-play{
-  border: none;
-  background: #5B1EDB;
-  height: 50px;
-  width: 50px;
-  border-radius: 50%;
-  padding-left: 10px;
-  position: absolute;
-  bottom: 0;
-  left: 190px;
-}
-
-.progress-ring__circle {
-  transition: 0.35s stroke-dashoffset;
-  // axis compensation
-  transform: rotate(-90deg);
-  transform-origin: 50% 50%;
-}
-#headline-replace{
-  float: left;
-  color: #5C1CDB;
-  font-weight: 400 !important;
-}
-#headline-replace-2{
-  float: right;
-  color: #5C1CDB;
-}
-#p-replace{
-  margin-top: 15px;
-  float: left;
-}
-input {
-  position: fixed;
-  top: 10px;
-  left: 10px;
-  width: 80px;
 }
 
 /* BLUE SIDE NAVIGATION */
@@ -378,91 +288,6 @@ input {
 
 /* END OF THE CSS CODE FOR THE "BECOME A MEMBER" SECTION */
 
-/* CSS CODE FOR THE "EVENTS" SECTION (Coded by Marius) */
-
-.background_events {
-  position: relative;
-  background-color: #ECE9E1;
-  width: 100vw;
-  height: 110vh;
-
-}
-
-.background_texture_events {
-  background: url("../images/texture/bg.png") no-repeat center center fixed;
-  width: 100vw;
-  height: 110vh;
-
-}
-
-.section_events {
-  position: absolute;
-  width: 49.3vw;
-  height: auto;
-  top: 4vw;
-  left: 0;
-  right: 0;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.flexbox_events {
-  margin-top: 4vw;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-.box_events {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  width: 61.5vw;
-  margin-bottom: 2vw;
-}
-
-.event_date {
-  font-weight: medium;
-  text-align: right;
-}
-
-.event_image {
-  background: url("../images/events/event0.jpg");
-  background-size: cover;
-  width: 22.1vw;
-  height: 13.1vw;
-}
-
-.event_textbox {
-  width: 32vw;
-}
-
-.event_title {
-  text-align: left;
-  font: medium 28px/38px Roc Grotesk;
-  color: #121212;
-  text-transform: uppercase;
-}
-
-.event_description {
-  margin-top: 1.7vw;
-  margin-bottom: 1vw;
-  text-align: left;
-  font: 22px/46px Gopher;
-  color: #121212;
-}
-
-.event_button {
-  text-align: left;
-  font: bold 22px/46px Gopher;
-  color: #121212;
-}
-
-
-
-
-/* END OF THE CSS CODE FOR THE "EVENTS" SECTION */
-
 .background_scrolling {
   position: relative;
   background-color: #ECE9E1;
@@ -483,23 +308,15 @@ input {
 .section_members {
   position: absolute;
   width: 49.3vw;
-  height: 44.2vw;
+  height: 39.2vw;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  top: 1vw;
+  top: 11vw;
   left: 0;
   right: 0;
   margin-left: auto;
   margin-right: auto;
-
-}
-
-.members_title {
-  text-align: left;
-  font: bold 2vw/0vw Roc Grotesk;
-  color: #5B1BDB;
-  margin-bottom: 2vw;
 }
 
 .flexbox_members {
@@ -509,7 +326,7 @@ input {
 }
 
 .box_member0 {
-  background: url("../images/members/member0.png");
+  background: url("../images/members/member1.png");
   background-size: cover;
   width: 8.3vw;
   height: 8.3vw;
@@ -679,22 +496,18 @@ input {
 /* END OF THE CSS CODE FOR THE "MEMBERS" SECTION */
 
 /* CSS CODE FOR THE "PORTFOLIOS" SECTION (Coded by Marius) */
-
 .section_portfolios {
   position: absolute;
   width: 32.8vw;
   height: auto;
-  top: 120.5vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  top: 124.5vh;
   left: 0;
   right: 0;
   margin-left: auto;
   margin-right: auto;
-}
-
-.flexbox_portfolios {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
 }
 
 .column_portfolios {
@@ -805,10 +618,86 @@ input {
 }
 
 /* END OF THE FOOTER SECTION */
+.insta_video{
+  width: 3vw;
+  position:absolute;
+  top:3vh;
+   left: 1.5vw;
+}
+
+.fb_video{
+  width: 3vw;
+  position:absolute;
+  top:10vh;
+  left: 1.5vw;
+}
+
+.turn{
+transform: rotate(270deg); color:#ECE9E1; font-size: 2vh; position: absolute; top: 26vh;
+
+}
+/*end video*/
+.background_way {
+  position: relative;
+  background: url("../images/texture/bg2.png") no-repeat center center fixed;
+background-color: #5B1BDB;
+  width: 100vw;
+  height: 100vh;
+  z-index: -2;
+}
+
+.box_way{
+  display: flex;
+  flex-direction: row;
+}
+
+.text_way{
+  padding-top: 14vw;
+  padding-left: 10.5vw;
+  padding-right: 8vw;
+}
+
+.header_way_we{
+  color: #ECE9E1;
+  position: absolute;
+  top: 7rem;
+  left: 10rem;
+
+
+}
+.header_way_with{
+  color: #ECE9E1;
+  position: absolute;
+  top: 8.7rem;
+  left: 28rem;
+
+
+}
+.blocktext_way {
+  text-align: left;
+  font: 1.1vw/2vw Gopher;
+  color:#ECE9E1;
+}
+
+
+.splash-way{
+  position: absolute;
+  top: 6.8rem;
+  left: 9.5rem;
+  width: 14vw;
+  height: 3vw;
+  z-index: -1;
+}
+
+.img-story{
+  display: block;
+  max-width: 48%;
+}
 
 
 /* CSS CODE FOR "OUR STORY" PAGE: Present time section (Coded by Vlada) */
 .background-present {
+  position: relative;
   background: url("../images/texture/bg2.png") no-repeat center center fixed;
   background-color: #FA7B26;
   width: 100vw;
@@ -844,9 +733,8 @@ input {
 
 .img-story {
   display: block;
-  max-width: 47%;
+  max-width: 48%;
 }
-
 /* END OF CSS CODE FOR "OUR STORY" PAGE: Present time section (Coded by Vlada) */
 
 /* CSS CODE FOR "OUR STORY" PAGE: Petition section (Coded by Vlada) */
@@ -857,11 +745,6 @@ input {
   width: 100vw;
   height: 100vh;
   z-index: -2;
-}
-
-.flex-img-text2 {
-  display: flex;
-  flex-direction: row;
 }
 
 .text-support {
@@ -885,7 +768,7 @@ input {
   color: #121212;
 }
 
-.support-text {
+.support-text{
   text-align: left;
   font: 1.1vw/2vw Gopher;
   color: #121212;
@@ -906,7 +789,6 @@ input {
   width: 4.6vw;
   height: 4.7vw;
 }
-
 /* END OF CSS CODE FOR "OUR STORY" PAGE: Petition section (Coded by Vlada)*/
 
 /* CSS CODE FOR "OUR STORY" PAGE: Footer (Coded by Vlada) */
@@ -951,11 +833,6 @@ input {
   padding: 10px 5px;
 }
 
-.btn-story:hover {
-  background-color: #5B1BDB;
-  transition: background-color .5s;
-}
-
 .story-contact {
   display: block;
   text-align: center;
@@ -964,7 +841,7 @@ input {
   text-decoration: underline;
 }
 
-.some-story {
+.some-story{
   display: flex;
   justify-content: center;
   padding: 10px;
@@ -981,145 +858,8 @@ input {
   color: #ECE9E1;
   text-decoration: underline;
 }
+
 /* END OF CSS CODE FOR "OUR STORY" PAGE: Footer (Coded by Vlada) */
-
-@media only screen and (max-width: 480px) {
-
-  /* (Mobile) CSS CODE FOR "OUR STORY" PAGE: Present time section (Coded by Vlada) */
-  .background-present {
-    z-index: -2;
-  }
-  .flex-img-text {
-    flex-direction: column;
-    justify-content: space-between;
-    height: 100vh;
-  }
-
-  .flex-text {
-    padding-top: 30vw;
-    padding-left: 16vw;
-    z-index: 2;
-  }
-
-  .text-present {
-    font: 4.5vw/6vw Roc Grotesk;
-  }
-
-  .img-story {
-    max-width: 100%;
-  }
-
-  .splash-present {
-    top: 28vw;
-    left: 13vw;
-    width: 32vw;
-    height: 8vw;
-    z-index: -1;
-  }
-  /* (Mobile) END OF CSS CODE FOR "OUR STORY" PAGE: Present time section (Coded by Vlada) */
-
-  /* (Mobile) CSS CODE FOR "OUR STORY" PAGE: Petition section (Coded by Vlada) */
-  .background-support {
-    height: 100vh;
-  }
-
-  .flex-img-text2 {
-    flex-direction: column;
-    justify-content: space-between;
-    height: 100vh;
-    overflow-y: auto;
-  }
-
-  .text-support {
-    padding-top: 13vw;
-    padding-left: 16vw;
-    padding-right: 10vw;
-  }
-
-  .head-support {
-    font: 4.5vw/6vw Roc Grotesk;
-  }
-
-  .support-text {
-    font: 3vw/4.5vw Gopher;
-  }
-
-  .btn-sup {
-    margin-top: 4vw;
-    margin-bottom: 10vw;
-    font: 2.7vw Gopher;
-    width: 20%;
-    padding: 8px 15px;
-    text-align: center;
-  }
-
-  .splash-support {
-    top: 11vw;
-    left: 13vw;
-    width: 32vw;
-    height: 8vw;
-    z-index: -1;
-  }
-
-  .hands-sup {
-    display: block;
-    position: absolute;
-    left: 34vw;
-    top: 108vw;
-    width: 10vw;
-    height: 10vw;
-  }
-   /* (Mobile) END OF CSS CODE FOR "OUR STORY" PAGE: Petition section (Coded by Vlada) */
-
-   /* (Mobile) CSS CODE FOR "OUR STORY" PAGE: Footer (Coded by Vlada) */
-  .story-footer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-
-  .story-logo {
-    width: 80%;
-    padding-top: 10px;
-  }
-
-  .story-head {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-
-  .story-text {
-    font: 4.5vw/6vw Gopher;
-    color: #ECE9E1;
-    margin-top: 50px;
-  }
-
-  .btn-story {
-    background: #FA7B26;
-    text-align: center;
-    font: 2.7vw Gopher;
-    color: #ECE9E1;
-    text-transform: uppercase;
-    margin-top: 4vw;
-    width: 20%;
-    padding: 10px 7px;
-  }
-
-  .story-contact {
-    font: 3.5vw Gopher;
-  }
-
-  .story-icon {
-    margin: 5px 10px;
-    width: 8vw;
-  }
-
-  .copyright {
-    font: 2.7vw Roc Grotesk;
-  }
-  /* (Mobile) END OF CSS CODE FOR "OUR STORY" PAGE: Footer (Coded by Vlada) */
-}
 
 @media only screen and (max-width: 600px) {
   .textbox_becomemember {
