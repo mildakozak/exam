@@ -227,6 +227,11 @@ input {
   position: absolute;
   bottom: 0;
   left: 190px;
+  transition: all .5s;
+}
+.button-play:hover {
+  background: #2F1C57;
+  transition: all .5s;
 }
 
 .progress-ring__circle {
