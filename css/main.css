@@ -9,7 +9,8 @@ H3 {
   font-weight: 600;
   font-style: normal;
 }
-H3{
+
+H3 {
   font-size: 32px;
 }
 
@@ -35,6 +36,7 @@ header {
   text-align: center;
   padding: 10vh;
 }
+
 /* BACKGROUND COLORS */
 .background-orange {
   background: #FA7B26 !important;
@@ -103,19 +105,20 @@ header {
 
 /* CIRLCE */
 .progress-ring__circle {
-transition: 0.35s stroke-dashoffset;
-// axis compensation
-transform: rotate(-90deg);
-transform-origin: 50% 50%;
+  transition: 0.35s stroke-dashoffset;
+  // axis compensation
+  transform: rotate(-90deg);
+  transform-origin: 50% 50%;
 }
 
 input {
-position: fixed;
-top: 10px;
-left: 10px;
-width: 80px;
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  width: 80px;
 }
-.circle-content-wrapper{
+
+.circle-content-wrapper {
   width: 400px;
   height: 320px;
   position: absolute;
@@ -126,26 +129,33 @@ width: 80px;
   right: 0;
   text-align: center;
 }
-.section-circle{
+
+.section-circle {
   position: relative;
   padding: 50px 0;
+  background-image: url("../images/texture/bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-#circle-progress{
+
+#circle-progress {
   display: none;
 }
-.circle-wrapper{
+
+.circle-wrapper {
   width: 700px;
   height: 700px;
   margin: auto;
 }
-.something-else{
+
+.something-else {
   height: 100vh;
   background-color: blue;
 }
-.progress-ring {
 
-}
-.button-play{
+.progress-ring {}
+
+.button-play {
   border: none;
   background: #5B1EDB;
   height: 50px;
@@ -163,19 +173,23 @@ width: 80px;
   transform: rotate(-90deg);
   transform-origin: 50% 50%;
 }
-#headline-replace{
+
+#headline-replace {
   float: left;
   color: #5C1CDB;
   font-weight: 400 !important;
 }
-#headline-replace-2{
+
+#headline-replace-2 {
   float: right;
   color: #5C1CDB;
 }
-#p-replace{
+
+#p-replace {
   margin-top: 15px;
   float: left;
 }
+
 input {
   position: fixed;
   top: 10px;
@@ -265,25 +279,29 @@ input {
 
 .background_whoweare {
   position: relative;
+  background: url("../images/texture/bg1.png") no-repeat center center fixed;
   background-color: #5B1BDB;
   width: 100vw;
   height: 100vh;
   z-index: 3;
-
+  margin: auto;
 }
 
-.background_texture_whoweare {
-  background: url("../images/texture/bg1.png") no-repeat center center fixed;
-  width: 100vw;
-  height: 100vh;
-
+.flexbox_whoweare {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
+
+
 
 .textbox_whoweare {
-  position: absolute;
   width: 41vw;
-  left: 10vw;
-  top: 16vw;
 }
 
 .header_whoweare {
@@ -329,10 +347,8 @@ input {
 }
 
 .illustration_whoarewe {
-  position: absolute;
-  top: 17vw;
-  right: 5vw;
-  width: 40vw;
+  width: 38vw;
+  height: 17.9vw;
 }
 
 /* END OF THE CSS CODE FOR THE "WHO WE ARE" SECTION */
@@ -341,37 +357,35 @@ input {
 
 .background_becomemember {
   position: relative;
+  background: url("../images/texture/bg2.png") no-repeat center center fixed;
   background-color: #FA7B26;
   width: 100vw;
   height: 100vh;
-
 }
 
-.background_texture_becomemember {
-  background: url("../images/texture/bg2.png") no-repeat center center fixed;
-  width: 100vw;
-  height: 100vh;
+.flexbox_becomemember {
+  margin: 0;
+  position: absolute;
+  top: 30vw;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
+
+
 
 .textbox_becomemember {
-  position: absolute;
   width: 41vw;
-  right: 10vw;
-  top: 16vw;
+  margin-top: 3vw;
 }
 
-
-.bg_blue {
-  background-color: #5B1BDB;
-  float: left;
-
-}
 
 .illustration_becomemember {
-  position: absolute;
-  top: 13vw;
-  left: 13vw;
+  margin-left: 10vw;
   width: 25vw;
+  height: 32.7vw;
 
 }
 
@@ -481,13 +495,11 @@ input {
 /* CSS CODE FOR THE "MEMBERS" SECTION (Coded by Marius) */
 
 .section_members {
-  position: absolute;
   width: 49.3vw;
   height: 44.2vw;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  top: 1vw;
   left: 0;
   right: 0;
   margin-left: auto;
@@ -646,6 +658,7 @@ input {
 }
 
 .text_overlay {
+  line-height: 1.2vw;
   color: #ECE9E1;
   position: absolute;
   top: 50%;
@@ -992,7 +1005,85 @@ input {
   color: #ECE9E1;
   text-decoration: underline;
 }
+
 /* END OF CSS CODE FOR "OUR STORY" PAGE: Footer (Coded by Vlada) */
+
+@media only screen and (max-width: 1200px) {
+
+  .background_whoweare {
+    position: relative;
+    background: url("../images/texture/bg1.png") no-repeat center center fixed;
+    background-color: #5B1BDB;
+    width: 100vw;
+    height: 100vh;
+    z-index: 3;
+    margin: auto;
+  }
+
+  .flexbox_whoweare {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+
+
+  .textbox_whoweare {
+    width: 500px;
+  }
+
+  .header_whoweare {
+    text-align: left;
+    font: bold 26px/36px Roc Grotesk;
+    color: #ECE9E1;
+  }
+
+  .body_whoweare {
+    text-align: left;
+    font: 16px/36px Gopher;
+    color: #ECE9E1;
+    margin-top: 20px;
+  }
+
+  .button_whoweare {
+    background: #FA7B26;
+    text-align: center;
+    font: 18px/30px Gopher;
+    color: #ECE9E1;
+    text-transform: uppercase;
+    padding: 4px 30px;
+    float: right;
+    margin-top: 20px;
+
+  }
+
+  .icon_select {
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 295px;
+    width: 60px;
+    height: 63px;
+  }
+
+  .illustration_splash {
+    position: absolute;
+    top: 55px;
+    left: -25px;
+    width: 172px;
+    height: 35px;
+    z-index: -1;
+  }
+
+  .illustration_whoarewe {
+    width: 500px;
+    height: 234px;
+  }
+}
 
 @media only screen and (max-width: 480px) {
 
@@ -1000,6 +1091,7 @@ input {
   .background-present {
     z-index: -2;
   }
+
   .flex-img-text {
     flex-direction: column;
     justify-content: space-between;
@@ -1027,6 +1119,7 @@ input {
     height: 8vw;
     z-index: -1;
   }
+
   /* (Mobile) END OF CSS CODE FOR "OUR STORY" PAGE: Present time section (Coded by Vlada) */
 
   /* (Mobile) CSS CODE FOR "OUR STORY" PAGE: Petition section (Coded by Vlada) */
@@ -1071,9 +1164,10 @@ input {
   .hands-sup {
     display: none;
   }
-   /* (Mobile) END OF CSS CODE FOR "OUR STORY" PAGE: Petition section (Coded by Vlada) */
 
-   /* (Mobile) CSS CODE FOR "OUR STORY" PAGE: Footer (Coded by Vlada) */
+  /* (Mobile) END OF CSS CODE FOR "OUR STORY" PAGE: Petition section (Coded by Vlada) */
+
+  /* (Mobile) CSS CODE FOR "OUR STORY" PAGE: Footer (Coded by Vlada) */
   .story-footer {
     display: flex;
     flex-direction: column;
@@ -1098,13 +1192,11 @@ input {
   }
 
   .btn-story {
-    background: #FA7B26;
-    text-align: center;
-    font: 2.7vw Gopher;
-    color: #ECE9E1;
-    text-transform: uppercase;
     margin-top: 4vw;
     width: 20%;
+    font: 2.7vw Gopher;
+    background: #FA7B26;
+    color: #ECE9E1;
     padding: 10px 7px;
   }
 
@@ -1120,80 +1212,78 @@ input {
   .copyright {
     font: 2.7vw Roc Grotesk;
   }
+
   /* (Mobile) END OF CSS CODE FOR "OUR STORY" PAGE: Footer (Coded by Vlada) */
-}
-
-@media only screen and (max-width: 600px) {
-  .textbox_becomemember {
-    position: absolute;
-    width: 41vw;
-    top: 10%;
-    left: 0;
-    right: 0;
-    margin-left: auto;
-    margin-right: auto;
+  .background_whoweare {
+    position: relative;
+    background: url("../images/texture/bg1.png") no-repeat center center fixed;
+    background-color: #5B1BDB;
+    width: 100vw;
+    height: 100vh;
+    z-index: 3;
+    margin: auto;
   }
 
-  .illustration_becomemember {
-    width: 260px;
+  .flexbox_whoweare {
+    margin: 0;
     position: absolute;
     top: 50%;
-    left: 0;
-    right: 0;
-    margin-left: auto;
-    margin-right: auto;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
 
+  .textbox_whoweare {
+    width: 80vw;
+  }
+
+  .header_whoweare {
+    text-align: left;
+    font: bold 5vw/5vw Roc Grotesk;
+    color: #ECE9E1;
+  }
+
+  .body_whoweare {
+    text-align: left;
+    font: 4vw/8vw Gopher;
+    color: #ECE9E1;
+    margin-top: 2vw;
+  }
+
+  .button_whoweare {
+    background: #FA7B26;
+    text-align: center;
+    font: 4vw/6vw Gopher;
+    color: #ECE9E1;
+    text-transform: uppercase;
+    padding: 2vw 7vw;
+    float: right;
+    margin-top: 3vw;
 
   }
 
-}
-
-
-@media only screen and (max-width: 1024px) {
-  .textbox_becomemember {
+  .icon_select {
     position: absolute;
-    width: 41vw;
-    top: 10%;
-    left: 0;
-    right: 0;
-    margin-left: auto;
-    margin-right: auto;
+    margin-top: 5vw;
+    margin-left: 30vw;
+    width: 20vw;
+    height: 20.4vw;
   }
 
-  .illustration_becomemember {
-    width: 260px;
+  .illustration_splash {
     position: absolute;
-    top: 50%;
-    left: 0;
-    right: 0;
-    margin-left: auto;
-    margin-right: auto;
-
-
+    top: 6.5vw;
+    left: -5vw;
+    width: 42vw;
+    height: 8.7vw;
+    z-index: -1;
   }
 
-}
-
-@media only screen and (max-width: 1200px) {
-  .textbox_becomemember {
-    position: absolute;
-    width: 41vw;
-    top: 10%;
-    left: 0;
-    right: 0;
-    margin-left: auto;
-    margin-right: auto;
+  .illustration_whoarewe {
+    margin-top: 25vw;
+    width: 80vw;
+    height: 37vw;
   }
-
-  .illustration_becomemember {
-    position: absolute;
-    top: 50%;
-    left: 0;
-    right: 0;
-    margin-left: auto;
-    margin-right: auto;
-
-
-  }
-
 }
