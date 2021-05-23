@@ -9,12 +9,17 @@ H3 {
   font-weight: 600;
   font-style: normal;
 }
+H3{
+  font-size: 32px;
+}
 
 p,
 a {
   font-family: gopher, sans-serif;
   font-weight: 400;
   font-style: normal;
+  font-size: 18px;
+  line-height: 1.8;
 }
 
 a {
@@ -30,7 +35,6 @@ header {
   text-align: center;
   padding: 10vh;
 }
-
 /* BACKGROUND COLORS */
 .background-orange {
   background: #FA7B26 !important;
@@ -95,6 +99,88 @@ header {
   margin-left: 25px;
   padding-left: 20px;
   z-index: 1;
+}
+
+/* CIRLCE */
+.progress-ring__circle {
+transition: 0.35s stroke-dashoffset;
+// axis compensation
+transform: rotate(-90deg);
+transform-origin: 50% 50%;
+}
+
+input {
+position: fixed;
+top: 10px;
+left: 10px;
+width: 80px;
+}
+.circle-content-wrapper{
+  width: 400px;
+  height: 320px;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  top: 270px;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+.section-circle{
+  position: relative;
+  padding: 50px 0;
+}
+#circle-progress{
+  display: none;
+}
+.circle-wrapper{
+  width: 700px;
+  height: 700px;
+  margin: auto;
+}
+.something-else{
+  height: 100vh;
+  background-color: blue;
+}
+.progress-ring {
+
+}
+.button-play{
+  border: none;
+  background: #5B1EDB;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  padding-left: 10px;
+  position: absolute;
+  bottom: 0;
+  left: 190px;
+}
+
+.progress-ring__circle {
+  transition: 0.35s stroke-dashoffset;
+  // axis compensation
+  transform: rotate(-90deg);
+  transform-origin: 50% 50%;
+}
+#headline-replace{
+  float: left;
+  color: #5C1CDB;
+  font-weight: 400 !important;
+}
+#headline-replace-2{
+  float: right;
+  color: #5C1CDB;
+}
+#p-replace{
+  margin-top: 15px;
+  float: left;
+}
+input {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  width: 80px;
 }
 
 /* BLUE SIDE NAVIGATION */
@@ -898,7 +984,7 @@ header {
 /* END OF CSS CODE FOR "OUR STORY" PAGE: Footer (Coded by Vlada) */
 
 @media only screen and (max-width: 480px) {
-  
+
   /* (Mobile) CSS CODE FOR "OUR STORY" PAGE: Present time section (Coded by Vlada) */
   .background-present {
     z-index: -2;
@@ -949,7 +1035,7 @@ header {
     padding-left: 16vw;
     padding-right: 10vw;
   }
-  
+
   .head-support {
     font: 4.5vw/6vw Roc Grotesk;
   }
@@ -1002,13 +1088,13 @@ header {
     flex-direction: column;
     justify-content: center;
   }
-  
+
   .story-text {
     font: 4.5vw/6vw Gopher;
     color: #ECE9E1;
     margin-top: 50px;
   }
-  
+
   .btn-story {
     background: #FA7B26;
     text-align: center;
@@ -1019,16 +1105,16 @@ header {
     width: 20%;
     padding: 10px 7px;
   }
-  
+
   .story-contact {
     font: 3.5vw Gopher;
   }
-  
+
   .story-icon {
     margin: 5px 10px;
     width: 8vw;
   }
-  
+
   .copyright {
     font: 2.7vw Roc Grotesk;
   }
