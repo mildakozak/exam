@@ -114,8 +114,46 @@ header {
 .section-split-view{
   height: 100vh;
   position: relative;
-  background: url("../images/texture/bg1.png") no-repeat center center fixed;
-  background-color: #5B1EDB;
+  background: url("") no-repeat center center fixed;
+}
+.split-view-button{
+  font: 1.2em Gopher;
+  background: #FA7B26;
+  color: #ECE9E1;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 10px 50px;
+}
+.split-view-orange{
+  background-color: #FA7B26;
+}
+.split-view-bg-blue{
+  background: url("../images/texture/bg.png");
+}
+.split-view-bg-orange{
+  background: url("../images/texture/bg1.png");
+}
+.split-view-bg-yellow{
+  background: url("../images/texture/bg2.png");
+}
+.split-view-grey{
+  background-color: #ECE9E1;
+  height: auto;
+}
+.split-view-orange{
+  background-color: #FA7B26;
+}
+.split-view-blue{
+  background-color: #5B1BDC;
+}
+.split-view-img-1{
+  background-image: url("../images/illustrations/inverted.jpg");
+}
+.split-view-img-2{
+  background-image: url("../images/illustrations/inverted_02.jpg");
+}
+.split-view-img-3{
+  background-image: url("../images/illustrations/inverted_03.jpg");
 }
 .split-view-grid-container{
   display: grid;
@@ -133,11 +171,38 @@ header {
   font-weight: 400;
 }
 .split-view-img{
-  background-color: green;
-  background-image: url("../images/illustrations/inverted.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+}
+footer{
+  height: 70vh;
+  background-color: #5B1BDC;
+  text-align: center;
+  padding-top: 10%;
+  padding-bottom: 30px;
+}
+footer H1{
+  color: #fff;
+  font-weight: 400;
+  margin: 70px 0;
+}
+.get-in-touch a{
+  width: 100%;
+  color: #fff;
+  margin-top: 50px;
+}
+.footer-icons{
+  padding-top: 20px;
+  width: 100%;
+  display: inline-block;
+  margin: auto;
+}
+.footer-icon{
+  display: inline-block;
+}
+.carloasw H2{
+  margin: 50px 0;
 }
 /* BORDERS COLORS */
 .border-orange {
