@@ -102,6 +102,19 @@ header {
 }
 
 /* CIRLCE */
+.progress-ring__circle {
+transition: 0.35s stroke-dashoffset;
+// axis compensation
+transform: rotate(-90deg);
+transform-origin: 50% 50%;
+}
+
+input {
+position: fixed;
+top: 10px;
+left: 10px;
+width: 80px;
+}
 .circle-content-wrapper{
   width: 400px;
   height: 320px;
@@ -966,7 +979,7 @@ input {
 /* END OF CSS CODE FOR "OUR STORY" PAGE: Footer (Coded by Vlada) */
 
 @media only screen and (max-width: 480px) {
-  
+
   /* (Mobile) CSS CODE FOR "OUR STORY" PAGE: Present time section (Coded by Vlada) */
   .background-present {
     z-index: -2;
@@ -1017,7 +1030,7 @@ input {
     padding-left: 16vw;
     padding-right: 10vw;
   }
-  
+
   .head-support {
     font: 4.5vw/6vw Roc Grotesk;
   }
@@ -1070,13 +1083,13 @@ input {
     flex-direction: column;
     justify-content: center;
   }
-  
+
   .story-text {
     font: 4.5vw/6vw Gopher;
     color: #ECE9E1;
     margin-top: 50px;
   }
-  
+
   .btn-story {
     margin-top: 4vw;
     width: 20%;
@@ -1085,16 +1098,16 @@ input {
     color: #ECE9E1;
     padding: 10px 7px;
   }
-  
+
   .story-contact {
     font: 3.5vw Gopher;
   }
-  
+
   .story-icon {
     margin: 5px 10px;
     width: 8vw;
   }
-  
+
   .copyright {
     font: 2.7vw Roc Grotesk;
   }
