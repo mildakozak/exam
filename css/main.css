@@ -601,13 +601,13 @@ input {
   background: url("../images/texture/bg.png") no-repeat center center fixed;
   background-color: #ECE9E1;
   width: 100vw;
-  height: 110vh;
+  height: 130vh;
 
 }
 
 .section_events {
   position: absolute;
-  width: 49.3vw;
+  width: 61.5vw;
   height: auto;
   top: 4vw;
   left: 0;
@@ -1349,6 +1349,11 @@ input {
     height: 360px;
     margin: 0 auto;
     margin-top: 50px;
+
+  }
+
+  .background_events {
+    height: 110vh;
 
   }
 
