@@ -129,6 +129,9 @@ width: 80px;
 .section-circle{
   position: relative;
   padding: 50px 0;
+  background-image: url("../images/texture/bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 #circle-progress{
   display: none;
