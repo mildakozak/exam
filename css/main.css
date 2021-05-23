@@ -27,6 +27,10 @@ a {
   text-decoration: none;
 }
 
+H2 {
+  font-size: 36px;
+}
+
 header {
   background-image: url("../images/header-background.png");
   background-size: cover;
@@ -39,13 +43,15 @@ header {
 
 .logo img {
   width: 170px;
-  margin-left: 40px;
+  margin-left: 100px;
 }
 
 .top-bar {
   width: 92%;
   float: right;
   padding: 25px 0;
+  position: absolute;
+  left: 7%;
 }
 
 .header-some-icons {
@@ -72,17 +78,23 @@ header {
   width: 80%;
   display: flex;
   flex-direction: row;
+  margin-top: -60px;
+}
+
+.header-container div {
+  margin: auto;
 }
 
 .header-headline {
-  padding-top: 100px;
   margin-left: 100px;
+  margin-top: -300px;
   z-index: 2;
 }
 
 .header-headline H1 {
   color: #5B1BDB;
   font-size: 90px;
+  margin-right: -280px;
 }
 
 .header-headline H3 {
@@ -96,11 +108,12 @@ header {
 .header-img {
   align-self: flex-end;
   margin-left: -150px;
-  margin-top: -100px;
+  margin-top: -200px;
 }
 
 .header-img img {
   max-width: 700px;
+  width: 100%;
 }
 
 /* BACKGROUND COLORS */
@@ -110,6 +123,123 @@ header {
 
 .background-blue {
   background: #5B1BDB !important;
+}
+
+/* SPLIT VIEW */
+.section-split-view {
+  height: 100vh;
+  position: relative;
+  background: url("") no-repeat center center fixed;
+}
+
+.split-view-button {
+  font: 1.2em Gopher;
+  background: #FA7B26;
+  color: #ECE9E1;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 10px 50px;
+}
+
+.split-view-orange {
+  background-color: #FA7B26;
+}
+
+.split-view-bg-blue {
+  background: url("../images/texture/bg.png");
+}
+
+.split-view-bg-orange {
+  background: url("../images/texture/bg1.png");
+}
+
+.split-view-bg-yellow {
+  background: url("../images/texture/bg2.png");
+}
+
+.split-view-grey {
+  background-color: #ECE9E1;
+  height: auto;
+}
+
+.split-view-orange {
+  background-color: #FA7B26;
+}
+
+.split-view-blue {
+  background-color: #5B1BDC;
+}
+
+.split-view-img-1 {
+  background-image: url("../images/illustrations/inverted.jpg");
+}
+
+.split-view-img-2 {
+  background-image: url("../images/illustrations/inverted_02.jpg");
+}
+
+.split-view-img-3 {
+  background-image: url("../images/illustrations/inverted_03.jpg");
+}
+
+.split-view-grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 100%;
+}
+
+.split-view-text-wrapper {
+  margin: auto;
+}
+
+.split-view-text {
+  padding: 50px;
+  place-self: center stretch;
+}
+
+.split-view-text H2 {
+  font-weight: 400;
+}
+
+.split-view-img {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+footer {
+  height: 70vh;
+  background-color: #5B1BDC;
+  text-align: center;
+  padding-top: 10%;
+  padding-bottom: 30px;
+}
+
+footer H1 {
+  color: #fff;
+  font-weight: 400;
+  margin: 70px 0;
+}
+
+.get-in-touch a {
+  width: 100%;
+  color: #fff;
+  margin-top: 50px;
+}
+
+.footer-icons {
+  padding-top: 20px;
+  width: 100%;
+  display: inline-block;
+  margin: auto;
+}
+
+.footer-icon {
+  display: inline-block;
+}
+
+.carloasw H2 {
+  margin: 50px 0;
 }
 
 /* BORDERS COLORS */
@@ -199,9 +329,8 @@ input {
 .section-circle {
   position: relative;
   padding: 50px 0;
-  background-image: url("../images/texture/bg.png");
-  background-size: cover;
-  background-repeat: no-repeat;
+  position: relative;
+  background: url("../images/texture/bg.png") no-repeat center center fixed;
 }
 
 #circle-progress {
@@ -231,6 +360,12 @@ input {
   position: absolute;
   bottom: 0;
   left: 190px;
+  transition: all .5s;
+}
+
+.button-play:hover {
+  background: #2F1C57;
+  transition: all .5s;
 }
 
 .progress-ring__circle {
@@ -1073,6 +1208,50 @@ input {
 /* END OF CSS CODE FOR "OUR STORY" PAGE: Footer (Coded by Vlada) */
 
 @media only screen and (max-width: 1200px) {
+  .split-view-grid-container {
+    grid-template-columns: 1fr;
+  }
+
+  .split-view-img {
+    height: 500px;
+    background-position: top;
+  }
+
+  .header-container {
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    margin-top: 100px;
+  }
+
+  .header-headline {
+    padding-top: 0;
+    margin-top: -50px;
+    margin-left: -50px;
+  }
+
+  .header-headline H1 {
+    font-size: 60px;
+    font-weight: 400;
+    margin-right: 0;
+  }
+
+  .header-headline H3 {
+    font-weight: 400;
+    font-size: 40px;
+    margin-top: -20px;
+    margin-right: -270px;
+  }
+
+  .header-img {
+    margin-left: -150px;
+    margin-top: -100px;
+    margin: auto;
+  }
+
+  .header-img img {
+    max-width: 400px;
+    width: 100%;
+  }
 
   .background_whoweare {
     position: relative;
@@ -1413,6 +1592,16 @@ input {
 }
 
 @media only screen and (max-width: 480px) {
+
+  .header-headline H1 {
+    font-size: 40px;
+  }
+
+  .header-headline H3 {
+    font-size: 20px;
+    margin-top: -20px;
+    margin-right: -150px;
+  }
 
   /* (Mobile) CSS CODE FOR "OUR STORY" PAGE: Present time section (Coded by Vlada) */
   .background-present {
