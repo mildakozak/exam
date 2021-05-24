@@ -194,6 +194,7 @@ header {
 
 .split-view-text {
   padding: 50px;
+  padding-left: 70px;
   place-self: center stretch;
 }
 
