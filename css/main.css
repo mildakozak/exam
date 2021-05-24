@@ -19,7 +19,6 @@ a {
   font-family: gopher, sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 18px;
   line-height: 1.8;
 }
 
@@ -27,9 +26,6 @@ a {
   text-decoration: none;
 }
 
-H2 {
-  font-size: 36px;
-}
 
 header {
   background-image: url("../images/header-background.png");
@@ -718,6 +714,7 @@ input {
   right: 0;
   margin-left: auto;
   margin-right: auto;
+  padding-top: 3%;
 
 }
 
@@ -734,130 +731,118 @@ input {
   justify-content: space-between;
 }
 
+.size {
+  width: 8.3vw;
+  height: 8.3vw;
+}
+
+
 .box_member0 {
   background: url("../images/members/member0.png");
   background-size: cover;
-  width: 8.3vw;
-  height: 8.3vw;
+
 }
 
 .box_member1 {
   background: url("../images/members/member1.png");
   background-size: cover;
-  width: 8.3vw;
-  height: 8.3vw;
+
 }
 
 .box_member2 {
   background: url("../images/members/member2.png");
   background-size: cover;
-  width: 8.3vw;
-  height: 8.3vw;
+
 }
 
 .box_member3 {
   background: url("../images/members/member3.png");
   background-size: cover;
-  width: 8.3vw;
-  height: 8.3vw;
+
 }
 
 .box_member4 {
   background: url("../images/members/member4.png");
   background-size: cover;
-  width: 8.3vw;
-  height: 8.3vw;
+
 }
 
 .box_member5 {
   background: url("../images/members/member5.png");
   background-size: cover;
-  width: 8.3vw;
-  height: 8.3vw;
+
 }
 
 .box_member6 {
   background: url("../images/members/member6.png");
   background-size: cover;
-  width: 8.3vw;
-  height: 8.3vw;
+
 }
 
 .box_member7 {
   background: url("../images/members/member7.png");
   background-size: cover;
-  width: 8.3vw;
-  height: 8.3vw;
+
 }
 
 .box_member8 {
   background: url("../images/members/member8.png");
   background-size: cover;
-  width: 8.3vw;
-  height: 8.3vw;
+
 }
 
 .box_member9 {
   background: url("../images/members/member9.png");
   background-size: cover;
-  width: 8.3vw;
-  height: 8.3vw;
+
 }
 
 .box_member10 {
   background: url("../images/members/member10.png");
   background-size: cover;
-  width: 8.3vw;
-  height: 8.3vw;
+
 }
 
 .box_member11 {
   background: url("../images/members/member11.png");
   background-size: cover;
-  width: 8.3vw;
-  height: 8.3vw;
+
 }
 
 .box_member12 {
   background: url("../images/members/member12.png");
   background-size: cover;
-  width: 8.3vw;
-  height: 8.3vw;
+
 }
 
 .box_member13 {
   background: url("../images/members/member13.png");
   background-size: cover;
-  width: 8.3vw;
-  height: 8.3vw;
+
 }
 
 .box_member14 {
   background: url("../images/members/member14.png");
   background-size: cover;
-  width: 8.3vw;
-  height: 8.3vw;
+
 }
 
 .box_member15 {
   background: url("../images/members/member15.png");
   background-size: cover;
-  width: 8.3vw;
-  height: 8.3vw;
+
 }
 
 .box_member16 {
   background: url("../images/members/member16.png");
   background-size: cover;
-  width: 8.3vw;
-  height: 8.3vw;
+
 }
 
 .box_member17 {
   background: url("../images/members/member17.png");
   background-size: cover;
-  width: 8.3vw;
-  height: 8.3vw;
+
 }
 
 .overlay {
@@ -909,7 +894,7 @@ input {
 
 .section_portfolios {
   position: absolute;
-  width: 32.8vw;
+  width: 619px;
   height: auto;
   top: 120.5vh;
   left: 0;
@@ -931,79 +916,80 @@ input {
 }
 
 .box_portfolio0 {
-  width: 15.3vw;
-  height: 30vw;
+  width: 286px;
+  height: 566px;
 }
 
 .box_portfolio1 {
-  width: 15.3vw;
-  height: 27.6vw;
+  width: 286px;
+  height: 520px;
 }
 
 .box_portfolio2 {
-  width: 15.3vw;
-  height: 30.1vw;
+  width: 286px;
+  height: 569px;
 }
 
 .box_portfolio3 {
-  width: 15.3vw;
-  height: 27.7vw;
+  width: 286px;
+  height: 520px;
 }
 
 .box_portfolio4 {
-  width: 15.3vw;
-  height: 30.1vw;
+  width: 286px;
+  height: 569px;
 }
 
 .portfolio0 {
   background: url("../images/portfolios/portfolio0.png");
   background-size: cover;
-  width: 15.1vw;
-  height: 23.6vw;
+  width: 286px;
+  height: 445px;
 
 }
 
 .portfolio1 {
   background: url("../images/portfolios/portfolio1.png");
   background-size: cover;
-  width: 15.1vw;
-  height: 21.1vw;
+  width: 286px;
+  height: 399px;
 
 }
 
 .portfolio2 {
   background: url("../images/portfolios/portfolio2.png");
   background-size: cover;
-  width: 15.1vw;
-  height: 23.7vw;
+  width: 286px;
+  height: 448px;
 
 }
 
 .portfolio3 {
   background: url("../images/portfolios/portfolio3.png");
   background-size: cover;
-  width: 15.1vw;
-  height: 21.1vw;
+  width: 286px;
+  height: 399px;
 
 }
 
 .portfolio4 {
   background: url("../images/portfolios/portfolio4.png");
   background-size: cover;
-  width: 15.1vw;
-  height: 23.7vw;
+  width: 286px;
+  height: 448px;
 
 }
 
 .portfolio_title {
-  margin-top: 0.8vw;
   text-align: left;
-  font: medium 1.5vw/2vw Roc Grotesk;
+  font: normal normal medium 28px/38px Roc Grotesk;
+  color: #121212;
+  margin-top: 15px;
 }
 
 .portfolio_description {
   text-align: left;
-  font: medium 1.5vw/1.6vw Gopher;
+  font: normal normal medium 22px/30px Gopher;
   color: #FA7B26;
 }
 
@@ -1455,6 +1441,176 @@ input {
     margin-left: 30px;
   }
 
+  .section_members {
+    width: 49.3vw;
+    height: 44.2vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 15%;
+
+  }
+
+}
+
+@media only screen and (max-width: 700px) {
+  .section_portfolios {
+    position: absolute;
+    width: 425px;
+    height: auto;
+    top: 120.5vh;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .flexbox_portfolios {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .column_portfolios {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .box_portfolio0 {
+    width: 195px;
+    height: 389px;
+  }
+
+  .box_portfolio1 {
+    width: 195px;
+    height: 357px;
+  }
+
+  .box_portfolio2 {
+    width: 195px;
+    height: 391px;
+  }
+
+  .box_portfolio3 {
+    width: 195px;
+    height: 356px;
+  }
+
+  .box_portfolio4 {
+    width: 195px;
+    height: 391px;
+  }
+
+  .portfolio0 {
+    background: url("../images/portfolios/portfolio0.png");
+    background-size: cover;
+    width: 195px;
+    height: 305px;
+
+  }
+
+  .portfolio1 {
+    background: url("../images/portfolios/portfolio1.png");
+    background-size: cover;
+    width: 195px;
+    height: 275px;
+
+  }
+
+  .portfolio2 {
+    background: url("../images/portfolios/portfolio2.png");
+    background-size: cover;
+    width: 195px;
+    height: 308px;
+
+  }
+
+  .portfolio3 {
+    background: url("../images/portfolios/portfolio3.png");
+    background-size: cover;
+    width: 195px;
+    height: 273px;
+
+  }
+
+  .portfolio4 {
+    background: url("../images/portfolios/portfolio4.png");
+    background-size: cover;
+    width: 195px;
+    height: 308px;
+
+  }
+
+  .portfolio_title {
+    text-align: left;
+    font: normal normal medium 20px/30px Roc Grotesk;
+    color: #121212;
+    margin-top: 15px;
+  }
+
+  .portfolio_description {
+    text-align: left;
+    font: normal normal medium 16px/20px Gopher;
+    color: #FA7B26;
+  }
+
+  .section_members {
+    width: 90vw;
+    height: 80vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30%;
+
+  }
+
+  .members_title {
+    text-align: left;
+    font: bold 4vw/0vw Roc Grotesk;
+    color: #5B1BDB;
+    margin-bottom: 2vw;
+  }
+
+  .flexbox_members {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .size {
+    width: 15vw;
+    height: 15vw;
+  }
+
+  .overlay {
+    position: relative;
+    width: 15vw;
+    height: 15vw;
+    opacity: 0;
+    transition: .8s ease;
+    background-color: #5B1BDB;
+    text-align: center;
+
+  }
+
+  .text_overlay {
+    line-height: 1.2vw;
+    color: #ECE9E1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+  }
 }
 
 @media only screen and (max-width: 520px) {
@@ -1637,6 +1793,22 @@ input {
     margin-bottom: 30px;
     margin-left: 30px;
   }
+
+  .section_members {
+    width: 90vw;
+    height: 90vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30%;
+
+  }
+
+
 }
 
 @media only screen and (max-width: 480px) {
@@ -1778,6 +1950,122 @@ input {
   }
 
   /* (Mobile) END OF CSS CODE FOR "OUR STORY" PAGE: Footer (Coded by Vlada) */
+
+  .section_portfolios {
+    position: absolute;
+    width: 319px;
+    height: auto;
+    top: 120.5vh;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .flexbox_portfolios {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .column_portfolios {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .box_portfolio0 {
+    width: 148px;
+    height: 290px;
+  }
+
+  .box_portfolio1 {
+    width: 148px;
+    height: 267px;
+  }
+
+  .box_portfolio2 {
+    width: 148px;
+    height: 305px;
+  }
+
+  .box_portfolio3 {
+    width: 148px;
+    height: 266px;
+  }
+
+  .box_portfolio4 {
+    width: 148px;
+    height: 305px;
+  }
+
+  .portfolio0 {
+    background: url("../images/portfolios/portfolio0.png");
+    background-size: cover;
+    width: 148px;
+    height: 228px;
+
+  }
+
+  .portfolio1 {
+    background: url("../images/portfolios/portfolio1.png");
+    background-size: cover;
+    width: 148px;
+    height: 206px;
+
+  }
+
+  .portfolio2 {
+    background: url("../images/portfolios/portfolio2.png");
+    background-size: cover;
+    width: 148px;
+    height: 232px;
+
+  }
+
+  .portfolio3 {
+    background: url("../images/portfolios/portfolio3.png");
+    background-size: cover;
+    width: 148px;
+    height: 204px;
+
+  }
+
+  .portfolio4 {
+    background: url("../images/portfolios/portfolio4.png");
+    background-size: cover;
+    width: 148px;
+    height: 231px;
+
+  }
+
+  .portfolio_title {
+    text-align: left;
+    font: normal normal medium 12px/10px Roc Grotesk;
+    color: #121212;
+    margin-top: 15px;
+  }
+
+  .portfolio_description {
+    text-align: left;
+    font: normal normal medium 12px/16px Gopher;
+    color: #FA7B26;
+  }
+
+  .section_members {
+    width: 90vw;
+    height: 90vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50%;
+
+  }
+
 
 
 }
