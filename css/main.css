@@ -155,7 +155,6 @@ header {
 
 .split-view-grey {
   background-color: #ECE9E1;
-  height: auto;
 }
 
 .split-view-orange {
@@ -328,6 +327,7 @@ input {
   padding: 50px 0;
   position: relative;
   background: url("../images/texture/bg.png") no-repeat center center fixed;
+  background-color: #ECE9E1;
 }
 
 #circle-progress {
@@ -340,11 +340,24 @@ input {
   margin: auto;
 }
 
-.something-else {
-  height: 100vh;
-  background-color: blue;
+.circle-icon{
+  position: absolute;
 }
-
+.circle-icon svg{
+  max-width: 140px;
+}
+#icon-1{
+  bottom: 40px;
+  left: calc(40% - 70px);
+}
+#icon-2{
+  top: 40px;
+  left: calc(40% - 70px);
+}
+#icon-3{
+  top: calc(40% - 70px);
+  right: calc(28% - 70px);
+}
 .progress-ring {}
 
 .button-play {
