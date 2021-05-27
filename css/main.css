@@ -294,7 +294,9 @@ footer H1 {
   padding-left: 20px;
   z-index: 1;
 }
-
+.navigation-portfolios{
+  left: 25px;
+}
 /* CIRLCE */
 .progress-ring__circle {
   transition: 0.35s stroke-dashoffset;
@@ -704,8 +706,7 @@ input {
   position: relative;
   background-color: #ECE9E1;
   width: 100vw;
-  height: 330vh;
-
+  height: 350vh;
 }
 
 .background_texture_scrolling {
@@ -904,7 +905,6 @@ input {
 /* END OF THE CSS CODE FOR THE "MEMBERS" SECTION */
 
 /* CSS CODE FOR THE "PORTFOLIOS" SECTION (Coded by Marius) */
-
 .section_portfolios {
   position: absolute;
   width: 619px;
@@ -1011,14 +1011,12 @@ input {
 /* FOOTER SECTION */
 
 .footer {
-  position: absolute;
+  padding: 10% 0;
   text-align: center;
-  top: 316.5vh;
-  left: 0;
-  right: 0;
   margin-left: auto;
   margin-right: auto;
-
+  background: url("../images/texture/bg1.png") no-repeat center center fixed;
+  background-color: #5B1BDB;
 }
 
 .facebook,
@@ -1471,6 +1469,9 @@ input {
 }
 
 @media only screen and (max-width: 700px) {
+  .background_scrolling {
+    height: 300vh;
+  }
   .section_portfolios {
     position: absolute;
     width: 425px;
@@ -1627,7 +1628,6 @@ input {
 }
 
 @media only screen and (max-width: 520px) {
-
   .background_whoweare {
     position: relative;
     background: url("../images/texture/bg1.png") no-repeat center center fixed;
