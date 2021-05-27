@@ -14,6 +14,19 @@
 </head>
 
 <body onload="replaceParagraph()">
+  <div class="mobile-navigation-flex background-orange" id="mobile-nav">
+    <div class="mobile-navigation-items">
+      <a onclick="navClose()" href="#who-are-we">Who are we</a>
+      <a onclick="navClose()" href="#founding">Founding</a>
+      <a onclick="navClose()" href="#our-work">Our work</a>
+      <a onclick="navClose()" href="#present">Present</a>
+      <a onclick="navClose()" href="#house">House</a>
+    </div>
+  </div>
+    <a id="nav-button" onclick="navToggle()">
+      <img id="nav-icon" src="images/icons/menu.svg" alt="Menu icon">
+    </a>
+
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>
     AOS.init();
@@ -616,7 +629,7 @@
     <!--HTML CODE FOR OUR STORY FOOTER SECTION (Coded by Vlada)-->
     <img src="images/logo/ORANGE_WHITE.png" alt="Logo">
     <h1>Learn more about our events and membership on our homepage.</h1>
-    <a href="#" class="split-view-button">Go back</a> <br><br><br>
+    <a href="index.html" class="split-view-button">Go back</a> <br><br><br>
     <div class="get-in-touch"><a href="#">Get in touch</a></div>
     <div class="footer-icons">
       <div class="footer-icon">
@@ -632,6 +645,7 @@
 
   <script src="js/main.js"></script>
   <script src="js/circle.js"></script>
+  <script src="js/navigation.js"></script>
 </body>
 
 </html>

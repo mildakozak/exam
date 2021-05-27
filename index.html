@@ -13,6 +13,19 @@
 </head>
 
 <body>
+  <div class="mobile-navigation-flex" id="mobile-nav">
+    <div class="mobile-navigation-items">
+      <a onclick="navClose()" href="#who-are-we">Who are we</a>
+      <a onclick="navClose()" href="#our-events">Our events</a>
+      <a onclick="navClose()" href="#become-a-member">Become a member</a>
+      <a onclick="navClose()" href="#our-members">Our members</a>
+      <a onclick="navClose()" href="#portfolios">Portfolios</a>
+    </div>
+  </div>
+    <a id="nav-button" onclick="navToggle()">
+      <img id="nav-icon" src="images/icons/menu.svg" alt="Menu icon">
+    </a>
+
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>
     AOS.init();
@@ -443,6 +456,7 @@
     </div>
 
   <script src="js/main.js"></script>
+  <script src="js/navigation.js"></script>
 </body>
 
 </html>
