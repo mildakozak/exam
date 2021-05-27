@@ -7,6 +7,7 @@ var circumference = radius * 2 * Math.PI;
 var i = 0;
 
 function replaceParagraph() {
+
     const phrases = [
   'Frontløberne is an open platform for cultural and creative entrepreneurship. We believe in your ideas and we are happy to share our experience with you!',
   'In Frontløberne you are always welcome to work on your cultural project in a common room.  We appreciate a cup of coffee with an inspirational talk!',
