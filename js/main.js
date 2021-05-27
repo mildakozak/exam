@@ -1,6 +1,6 @@
 const gap = 16;
 
-/* JS CODE FOR THE "SLIDER" SECTION (Code by Victor Tuesta Ascoy) */
+/* JS CODE FOR THE "SLIDER" SECTION (Code by Victor Tuesta Ascoy, https://codepen.io/tuesta/pen/QoMqBY)*/
 
 const carousel = document.getElementById("carousel"),
     content = document.getElementById("content"),
