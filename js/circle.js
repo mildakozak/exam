@@ -58,8 +58,7 @@ function replaceParagraph() {
                 i = 0;
     }
   }
-
-    i++
+  i++
 
     const input = document.querySelector('input');
     setProgress(input.value);
