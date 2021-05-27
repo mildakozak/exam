@@ -1,3 +1,6 @@
+//We took the svg cicrle from here https://css-tricks.com/building-progress-ring-quickly/
+//However, the logic behind it is our own
+
 var circle = document.querySelector('circle');
 var radius = circle.r.baseVal.value;
 var circumference = radius * 2 * Math.PI;
