@@ -34,24 +34,24 @@ function replaceParagraph() {
                 document.getElementById('headline-replace-2').innerHTML = headlines2[0],
                 document.getElementById('p-replace').innerHTML = phrases[0],
                 document.getElementById('ellipse-1').style.fill = "#FBC117",
-                //document.getElementById('ellipse-2').style.fill = "#ECE9E1",
+                document.getElementById('ellipse-2').style.fill = "#ECE9E1",
                 document.getElementById('ellipse-3').style.fill = "#ECE9E1";
         } else if (i == 2) {
             circle.style.strokeDashoffset = 666,
                 document.getElementById('headline-replace').innerHTML = headlines[1],
                 document.getElementById('headline-replace-2').innerHTML = headlines2[1],
                 document.getElementById('p-replace').innerHTML = phrases[1];
-                //document.getElementById('ellipse-2').style.fill = "#FBC117",
+                document.getElementById('ellipse-2').style.fill = "#FBC117",
                 document.getElementById('ellipse-3').style.fill = "#ECE9E1";
         } else{
                 circle.style.strokeDashoffset = 0,
                 document.getElementById('headline-replace').innerHTML = headlines[2],
                 document.getElementById('headline-replace-2').innerHTML = headlines2[2],
                 document.getElementById('p-replace').innerHTML = phrases[2],
-                i = 0,
                 document.getElementById('ellipse-1').style.fill = "#FBC117",
-                //document.getElementById('ellipse-2').style.fill = "#FBC117",
-                document.getElementById('ellipse-3').style.fill = "#FBC117";
+                document.getElementById('ellipse-2').style.fill = "#FBC117",
+                document.getElementById('ellipse-3').style.fill = "#FBC117",
+                i = 0;
     }
   }
 
