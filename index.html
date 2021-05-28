@@ -10,7 +10,7 @@
   <meta name="description"
     content="Frontløberne is a creative community for young culture creators in Aarhus. We organize events, launch projects and cultural productions. Learn how to become a member and break the norms of what's possible with us!">
   <link rel="stylesheet" href="https://use.typekit.net/gkw5qkw.css">
-  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/main.css?v=1">
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
@@ -66,14 +66,13 @@
 
 
   <!--HTML CODE FOR THE "WHO WE ARE" SECTION (Coded by Marius) -->
-  <div class="background_whoweare">
-    <a name="who-are-we"></a>
+  <div id="who-are-we" class="background_whoweare">
 
     <!-- Side Navigation White -->
     <div class="side-navigation">
       <a href="#who-are-we">
         <div class="side-navigation-item-wrappper">
-          <div class="dot" id="dot-active"></div>
+          <div class="dot dot-active"></div>
           <div class="side-navigation-item">Who are we?</div>
         </div>
       </a>
@@ -83,16 +82,16 @@
           <div class="side-navigation-item">Our events</div>
         </div>
       </a>
-      <a href="#become-a-member">
-        <div class="side-navigation-item-wrappper">
-          <div class="dot background-blue"></div>
-          <div class="side-navigation-item">Become a member</div>
-        </div>
-      </a>
       <a href="#our-members">
         <div class="side-navigation-item-wrappper">
           <div class="dot background-blue"></div>
           <div class="side-navigation-item">Our members</div>
+        </div>
+      </a>
+      <a href="#become-a-member">
+        <div class="side-navigation-item-wrappper">
+          <div class="dot background-blue"></div>
+          <div class="side-navigation-item">Become a member</div>
         </div>
       </a>
       <a href="#portfolios">
@@ -124,8 +123,7 @@
 
   <!--HTML CODE FOR THE "EVENTS" SECTION (Coded by Marius) -->
 
-  <div class="background_events">
-    <a name="our-events"></a>
+  <div id="our-events" class="background_events">
     <!-- Side Navigation Blue -->
     <div class="side-navigation side-navigation-blue border-blue">
       <a href="#who-are-we">
@@ -136,20 +134,20 @@
       </a>
       <a href="#our-events">
         <div class="side-navigation-item-wrappper">
-          <div class="dot" id="dot-active"></div>
+          <div class="dot dot-active background-blue"></div>
           <div class="side-navigation-item">Our events</div>
-        </div>
-      </a>
-      <a href="#become-a-member">
-        <div class="side-navigation-item-wrappper">
-          <div class="dot"></div>
-          <div class="side-navigation-item">Become a member</div>
         </div>
       </a>
       <a href="#our-members">
         <div class="side-navigation-item-wrappper">
           <div class="dot"></div>
           <div class="side-navigation-item">Our members</div>
+        </div>
+      </a>
+      <a href="#become-a-member">
+        <div class="side-navigation-item-wrappper">
+          <div class="dot"></div>
+          <div class="side-navigation-item">Become a member</div>
         </div>
       </a>
       <a href="#portfolios">
@@ -205,7 +203,6 @@
 
   <!--HTML CODE FOR THE "MEMBERS" SECTION (Coded by Marius) -->
   <div class="background_becomemember">
-    <a name="become-a-member"></a>
 
     <!-- Side Navigation White -->
     <div class="side-navigation">
@@ -221,16 +218,16 @@
           <div class="side-navigation-item">Our events</div>
         </div>
       </a>
-      <a href="#become-a-member">
-        <div class="side-navigation-item-wrappper">
-          <div class="dot" id="dot-active"></div>
-          <div class="side-navigation-item">Become a member</div>
-        </div>
-      </a>
       <a href="#our-members">
         <div class="side-navigation-item-wrappper">
-          <div class="dot background-orange"></div>
+          <div class="dot dot-active"></div>
           <div class="side-navigation-item">Our members</div>
+        </div>
+      </a>
+      <a href="#become-a-member">
+        <div class="side-navigation-item-wrappper">
+          <div class="dot background-orange"></div>
+          <div class="side-navigation-item">Become a member</div>
         </div>
       </a>
       <a href="#portfolios">
@@ -242,8 +239,7 @@
     </div>
     <!-- End of Side Navigation -->
 
-    <div class="section_members">
-      <a name="our-members"></a>
+    <div id="our-members" class="section_members">
       <h1 class="members_title">#OURMEMBERS</h1>
 
       <div class="flexbox_members" data-aos="fade-up-right">
@@ -364,16 +360,16 @@
         <div class="side-navigation-item">Our events</div>
       </div>
     </a>
-    <a href="#become-a-member">
-      <div class="side-navigation-item-wrappper">
-        <div class="dot"></div>
-        <div class="side-navigation-item">Become a member</div>
-      </div>
-    </a>
     <a href="#our-members">
       <div class="side-navigation-item-wrappper">
-        <div class="dot" id="dot-active"></div>
+        <div class="dot"></div>
         <div class="side-navigation-item">Our members</div>
+      </div>
+    </a>
+    <a href="#become-a-member">
+      <div class="side-navigation-item-wrappper">
+        <div class="dot dot-active background-blue"></div>
+        <div class="side-navigation-item">Become a member</div>
       </div>
     </a>
     <a href="#portfolios">
@@ -388,7 +384,7 @@
     <div class="background_texture_scrolling"></div>
 
     <!--HTML CODE FOR THE "BECOME A MEMBER" SECTION (Coded by Marius) -->
-    <div class="flexbox_becomemember">
+    <div id="become-a-member" class="flexbox_becomemember">
       <div class="textbox_becomemember" data-aos="fade-up-right">
         <p class="header_whoweare font-blue">BECOME A MEMBER</p>
         <p class="body_whoweare font-black">Everybody is welcome to take part in our community and to participate in our
@@ -406,8 +402,7 @@
 
     <!-- HTML CODE FOR THE "PORTFOLIOS" SECTION (Coded by Marius)-->
     <div class="portfolios-wrapper">
-    <div class="section_portfolios">
-      <a name="portfolios"></a>
+    <div id="portfolios" class="section_portfolios">
       <h1 class="members_title">#PORTFOLIOS</h1>
       <div class="flexbox_portfolios">
         <div class="column_portfolios">
